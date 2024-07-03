@@ -1,0 +1,195 @@
+Flow ID,Name,Description,Test Steps,Flow Priority
+1,Admin Service Request Creation Flow,"Navigate to the admin home, create a service request, select a service, and verify the home page.","Step 1: Navigate to https://sigpape-dev.northeurope.cloudapp.azure.com:460/auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 5: Click on input selectAservice
+Step 6: Click on button ok -> Navigate to page 'admin/my-applications/*'
+Step 7: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 8: Click on input selectAservice -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
+",High
+3,Admin Service Request Creation Flow with Multiple Steps,"Navigate to the admin home, create a service request with multiple steps, select a service, and verify the home page.","Step 1: Navigate to https://sigpape-dev.northeurope.cloudapp.azure.com:460/auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on link serviceRequest
+Step 5: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 6: Click on input selectAservice
+Step 7: Click on button ok -> Navigate to page 'admin/my-applications/*'
+Step 8: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 9: Click on input selectAservice -> Navigate to page ''
+Step 10: Take full page screenshot as checkpoint
+",High
+4,Admin Document and Profile Management Flow,"Navigate to admin home, manage documents and profile, input details, and send messages. Verify actions and logout.","Step 1: Navigate to https://sigpape-dev.northeurope.cloudapp.azure.com:460/auth/home
+Step 2: Click on span bannerButton
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on button myDocuments -> Navigate to page 'admin/personal-profile/documents'
+Step 5: Click on button myPassword
+Step 6: Click on button myProfile
+Step 7: Click on button myDocuments
+Step 8: Click on p uploadDocument
+Step 9: Click on input 1
+Step 10: Click on p uploadDocument
+Step 11: Click on input 2
+Step 12: Click on div uploadDocument
+Step 13: Click on input 3
+Step 14: Click on button saveChanges
+Step 15: Click on button ok -> Navigate to page 'admin/personal-profile'
+Step 16: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 17: Click on input selectAservice
+Step 18: Click on div dialog
+Step 19: Click on button ok -> Navigate to page 'admin/my-applications/*'
+Step 20: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 21: Click on item posts
+Step 22: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 23: Click on div serviceRequest
+Step 24: Navigate admin home, input contact details, and send message
+	- Step 1: Click on link adminHome -> Navigate to page 'admin/home'
+	- Step 2: Click on link contacts -> Navigate to page 'admin/contacts'
+	- Step 3: Click on input name
+	- Step 4: Enter input value in input name
+	- Step 5: Click on div contactsInfo
+	- Step 6: Click on input surname
+	- Step 7: Enter input value in input surname
+	- Step 8: Click on input email
+	- Step 9: Enter input value in input email
+	- Step 10: Click on input phone
+	- Step 11: Enter input value in input phone
+	- Step 12: Click on div nameSurnamePhone
+	- Step 13: Enter input value in input email
+	- Step 14: Click on textarea message
+	- Step 15: Enter input value in textarea message
+	- Step 16: Click on button send
+Step 25: Click on span close
+Step 26: Navigate admin home, input contact details, and send message
+	- Step 1: Click on link adminHome -> Navigate to page 'admin/home'
+	- Step 2: Click on link contacts -> Navigate to page 'admin/contacts'
+	- Step 3: Click on input name
+	- Step 4: Enter input value in input name
+	- Step 5: Click on div contactsInfo
+	- Step 6: Click on input surname
+	- Step 7: Enter input value in input surname
+	- Step 8: Click on input email
+	- Step 9: Enter input value in input email
+	- Step 10: Click on input phone
+	- Step 11: Enter input value in input phone
+	- Step 12: Click on div nameSurnamePhone
+	- Step 13: Enter input value in input email
+	- Step 14: Click on textarea message
+	- Step 15: Enter input value in textarea message
+	- Step 16: Click on button send
+Step 27: Click on div dialog
+Step 28: Click on span close
+Step 29: Click on div serviceRequestPostsContacts
+Step 30: Click on link adminHome -> Navigate to page 'admin/home'
+Step 31: Click on button accessHere -> Navigate to page 'admin/information-entity-registration'
+Step 32: Click on button registerEntity -> Navigate to page 'admin/application-create/business-registration/*'
+Step 33: Click on input selectService
+Step 34: Click on input selectSubservice
+Step 35: Click on div selectServiceSelectSubservice
+Step 36: Click on input selectService
+Step 37: Click on input selectSubservice
+Step 38: Click on div 2ComplementaryData
+Step 39: Click on div 2ComplementaryData
+Step 40: Click on button next
+Step 41: Click on input cd340
+Step 42: Enter input value in input cd340
+Step 43: Click on div whatIsTheTaxIdNumberOf
+Step 44: Click on input cd341
+Step 45: Enter input value in input cd341
+Step 46: Click on input cd342
+Step 47: Enter input value in input cd342
+Step 48: Click on input cd343
+Step 49: Click on input cd343
+Step 50: Enter input value in input cd343
+Step 51: Click on input cd344
+Step 52: Enter input value in input cd344
+Step 53: Click on button next -> Navigate to page 'admin/home'
+Step 54: Click on button accessHere -> Navigate to page 'admin/information-entity-dissolution'
+Step 55: Click on button dissolveEntity -> Navigate to page 'admin/application-create/business-registration/*'
+Step 56: Click on input selectService
+Step 57: Click on input selectSubservice
+Step 58: Click on div serviceRequestPostsContacts
+Step 59: Click on button next
+Step 60: Click on input cd340
+Step 61: Enter input value in input cd340
+Step 62: Click on input cd341
+Step 63: Enter input value in input cd341
+Step 64: Click on input cd342
+Step 65: Enter input value in input cd342
+Step 66: Click on input cd343
+Step 67: Enter input value in input cd343
+Step 68: Click on form object
+Step 69: Click on button next -> Navigate to page 'admin/application-create'
+Step 70: Click on link adminHome -> Navigate to page 'admin/home'
+Step 71: Click on link adminHome
+Step 72: Click on button userMenu
+Step 73: Click on span signOut -> Navigate to page ''
+Step 74: Take full page screenshot as checkpoint
+",High
+5,Admin Service Request Creation Flow with Iterative Steps,"Navigate to admin home, create a service request with iterative steps, select services, and verify the home page.","Step 1: Navigate to https://sigpape-dev.northeurope.cloudapp.azure.com:460/auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 5: Click on input selectAservice
+Step 6: Click on button ok -> Navigate to page 'admin/my-applications/*'
+Step 7: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 8: Click on input selectAservice
+Step 9: Click on button ok -> Navigate to page 'admin/my-applications/*'
+Step 10: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 11: Click on input selectAservice
+Step 12: Click on button ok -> Navigate to page 'admin/my-applications/*'
+Step 13: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 14: Click on input selectAservice
+Step 15: Click on item option0
+Step 16: Click on input selectSubservice
+Step 17: Click on item option2
+Step 18: Click on button next
+Step 19: Click on input cd324
+Step 20: Enter input value in input cd324
+Step 21: Click on input cd325
+Step 22: Enter input value in input cd325
+Step 23: Click on input cd326
+Step 24: Enter input value in input cd326
+Step 25: Click on input cd327
+Step 26: Enter input value in input cd327
+Step 27: Click on button next
+Step 28: Click on button next -> Navigate to page 'admin/my-applications/*'
+Step 29: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 30: Click on input selectAservice
+Step 31: Click on div dialog
+Step 32: Click on button ok -> Navigate to page 'admin/my-applications/*'
+Step 33: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 34: Click on input selectAservice
+Step 35: Click on body object
+Step 36: Click on button ok -> Navigate to page 'admin/my-applications/*'
+Step 37: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 38: Click on input selectAservice
+Step 39: Click on item option0 -> Navigate to page ''
+Step 40: Take full page screenshot as checkpoint
+",High
+6,Admin Service Request Creation Flow with Contacts,"Navigate to admin home, create a service request with contacts, save actions, and verify the home page.","Step 1: Navigate to https://sigpape-dev.northeurope.cloudapp.azure.com:460/auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 5: Click on input selectAservice
+Step 6: Click on div serviceRequestPostsContacts17KbkatalonBeta
+Step 7: Click on link serviceRequest
+Step 8: Click on button save -> Navigate to page 'admin/home'
+Step 9: Click on button ok
+Step 10: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 11: Click on link serviceRequest
+Step 12: Click on input selectAservice
+Step 13: Click on button ok -> Navigate to page 'admin/my-applications/*'
+Step 14: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 15: Click on input selectAservice -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
+",High
+2,Admin Service Request Creation Flow with Welcome,"Navigate to admin home, create a service request with welcome steps, select a service, and verify the home page.","Step 1: Navigate to https://sigpape-dev.northeurope.cloudapp.azure.com:460/auth/home
+Step 2: Click on div welcomeToOneStop
+Step 3: Click on button welcomeSignIn
+Step 4: Login -> Navigate to page 'admin/home'
+Step 5: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 6: Click on input selectAservice -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",Medium
