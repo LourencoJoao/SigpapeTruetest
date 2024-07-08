@@ -4,8 +4,10 @@
    <name>button_WelcomeSign In</name>
    <tag></tag>
    <elementGuidId>1bab2fff-5d49-4e99-80fd-fdc144c7a854</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>button.MuiButtonBase-root.MuiButton-root.jss34.MuiButton-text.MuiButton-colorInherit</value>
@@ -15,18 +17,18 @@
          <value>(//button[@type='button'])[2]</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and (text() = 'WelcomeSign In' or . = 'WelcomeSign In')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value></value>
+         <value>internal:role=button[name=&quot;Welcome Sign In&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +36,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e2faacc5-2018-4d7c-90a5-ec2971f1804d</webElementGuid>
+      <webElementGuid>b45aa6f1-5f89-4d7e-83a4-55d71385e064</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiButton-root jss34 MuiButton-text MuiButton-colorInherit</value>
-      <webElementGuid>894dbc01-6a1e-4ceb-9ba1-4a575de3400f</webElementGuid>
+      <webElementGuid>2335f535-909c-4dee-94fc-4de0ad71c3ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +52,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>b14489f4-299e-4bd5-be7b-46d7b950d497</webElementGuid>
+      <webElementGuid>711caf8f-f380-4c01-8dd1-d7697e041583</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,7 +60,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>07766280-080c-474b-b544-3b3ceb017bed</webElementGuid>
+      <webElementGuid>4c206dd1-e7fa-42f3-886f-d3f6a5e9b213</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +68,7 @@
       <name>edge</name>
       <type>Main</type>
       <value>end</value>
-      <webElementGuid>0e60ce6d-6b97-4d5d-afe6-2a42c33314f3</webElementGuid>
+      <webElementGuid>24b28517-e28a-44df-b2e8-028caea9d357</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +76,7 @@
       <name>text</name>
       <type>Main</type>
       <value>WelcomeSign In</value>
-      <webElementGuid>b45895a2-7ae7-4833-83c1-55f6f4ccc3d2</webElementGuid>
+      <webElementGuid>6c30259e-568e-40d9-bb66-e088e8931748</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +84,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;main-content&quot;]/header[@class=&quot;MuiPaper-root MuiAppBar-root jss2 MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation0&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-regular&quot;]/div[@class=&quot;MuiBox-root jss37 MuiContainer-root jss3&quot;]/div[@class=&quot;MuiBox-root jss38&quot;]/div[@class=&quot;MuiBox-root jss70&quot;]/div[@class=&quot;MuiBox-root jss71&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root jss34 MuiButton-text MuiButton-colorInherit&quot;]</value>
-      <webElementGuid>c0240bc9-81bd-476f-95f6-5cfad4a9e3d9</webElementGuid>
+      <webElementGuid>836d67a3-e517-43a8-8bc9-f7bd6ad5a2cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +92,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>7158afcf-78ba-4dc9-9e8b-77b6edd37ad4</webElementGuid>
+      <webElementGuid>1b161daa-8ebb-49ff-a743-483fec9ba1f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +100,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/header/div/div/div/div[5]/div/button</value>
-      <webElementGuid>f046f9c5-681d-44bb-8054-3803c711ad0f</webElementGuid>
+      <webElementGuid>e548c9d8-71c7-4d0e-9b26-328d7bff3351</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/following::button[1]</value>
-      <webElementGuid>d5816356-3302-4104-9664-17cb2540064a</webElementGuid>
+      <webElementGuid>ba8b2f0d-365e-407e-af63-283c89efcec4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Posts'])[1]/following::button[1]</value>
-      <webElementGuid>de01f748-a865-489a-b36a-4883fdfe0a43</webElementGuid>
+      <webElementGuid>0f12af27-7b75-4c4e-b226-3a46d575921f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +124,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/button</value>
-      <webElementGuid>0862230e-422d-497f-98af-a4f936faec84</webElementGuid>
+      <webElementGuid>cbf2e930-4cf0-49ac-a254-86684ac8eb83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +132,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'WelcomeSign In' or . = 'WelcomeSign In')]</value>
-      <webElementGuid>cd92cdd8-63a3-47ca-a402-9b58b1011624</webElementGuid>
+      <webElementGuid>d27c8f03-e6bb-4d53-ac22-1db849cc08b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

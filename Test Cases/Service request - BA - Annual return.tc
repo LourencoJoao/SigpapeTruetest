@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Service request - BA - Annual return</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>20c086f0-bb76-4cd3-8e0c-9605a4bf0476</testCaseGuid>
+</TestCaseEntity>

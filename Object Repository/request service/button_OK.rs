@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Sign In</name>
+   <name>button_OK</name>
    <tag></tag>
-   <elementGuidId>3a535be4-0e86-4045-90e3-1b32715b773c</elementGuidId>
+   <elementGuidId>eb1101bc-5b31-44d9-96d3-b4307439f449</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.undefined.MuiButton-containedPrimary</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[17]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[29]</value>
+         <key>CSS</key>
+         <value>button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.jss10672.MuiButton-containedPrimary</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Sign In&quot;i]</value>
+         <value>internal:role=button[name=&quot;OK&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4e43081b-ed1d-4137-b055-5afd9916b8a4</webElementGuid>
+      <webElementGuid>55a46436-77d1-4101-8132-e5738116e335</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>MuiButtonBase-root MuiButton-root MuiButton-contained undefined MuiButton-containedPrimary</value>
-      <webElementGuid>20e069b9-9ce4-4804-a46d-c578b3d78131</webElementGuid>
+      <value>MuiButtonBase-root MuiButton-root MuiButton-contained jss10672 MuiButton-containedPrimary</value>
+      <webElementGuid>d39d5458-9006-457a-939a-a27b580009aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7a00ddce-0db6-4450-9ce3-2d7b52b1ee96</webElementGuid>
+      <webElementGuid>b4626e58-5dc6-48f2-8dcf-80397a3b3949</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0edfff25-31f8-43d1-9544-8ed7e511f437</webElementGuid>
+      <webElementGuid>75ff3b73-6519-4a3f-b771-0ff9ab03d38d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,62 +61,62 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>generic-button-undefined</value>
-      <webElementGuid>c58486e7-baf1-4d60-a81f-3d24c348950a</webElementGuid>
+      <webElementGuid>07763c67-a4dd-4b8f-b8d8-714b46f831ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sign In</value>
-      <webElementGuid>f74b2429-34bd-4feb-bfc5-c702b9e3b24e</webElementGuid>
+      <value>OK</value>
+      <webElementGuid>68c8bee0-3c8c-4737-9407-061ab74cfa07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;jss1&quot;]/div[@class=&quot;MuiDialog-root&quot;]/div[@class=&quot;MuiDialog-container MuiDialog-scrollPaper&quot;]/div[@class=&quot;MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthXl MuiPaper-elevation24 MuiPaper-rounded&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-xl-6&quot;]/div[@class=&quot;MuiCardContent-root&quot;]/form[1]/div[@class=&quot;MuiBox-root jss9488&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained undefined MuiButton-containedPrimary&quot;]</value>
-      <webElementGuid>eb4e0e86-2f53-490b-87bd-b49f9eab504f</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;MuiDialog-root&quot;]/div[@class=&quot;MuiDialog-container MuiDialog-scrollPaper&quot;]/div[@class=&quot;MuiPaper-root MuiDialog-paper jss10658 MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded&quot;]/div[@class=&quot;MuiCardContent-root&quot;]/div[@class=&quot;MuiGrid-root MuiBox-root jss37864&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained jss10672 MuiButton-containedPrimary&quot;]</value>
+      <webElementGuid>5150d5a5-133c-4af8-81ce-56b4b2e36bbc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[29]</value>
-      <webElementGuid>c3bbede7-09f5-419d-934b-f9d6929b9d29</webElementGuid>
+      <value>(//button[@type='button'])[17]</value>
+      <webElementGuid>475bdbd8-e20c-4396-8444-cb18a3d9e183</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot my password'])[1]/following::button[1]</value>
-      <webElementGuid>60ac90b7-316b-4ded-9e55-3ff9618a23cb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign Out'])[1]/following::button[2]</value>
+      <webElementGuid>60fd0bcf-f78c-4e19-bef6-a69e1fb0eae0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[3]/following::button[1]</value>
-      <webElementGuid>715b7d0b-7d9d-49f1-848c-1ee99cd8dc29</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Complaints'])[1]/following::button[2]</value>
+      <webElementGuid>00813347-c609-42c9-8c43-e9614bd61c7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/button</value>
-      <webElementGuid>bbb33178-8e22-4eac-97f1-284a49ca2fc0</webElementGuid>
+      <value>//div[3]/div/div/div/button</value>
+      <webElementGuid>bc46a49a-e933-44f6-b298-0e1b03e1fed6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>93e8baff-9b03-4581-a2fb-9785beae9fa5</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'OK' or . = 'OK')]</value>
+      <webElementGuid>4488f1fe-bb0a-45da-94ff-7ea787552b03</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
