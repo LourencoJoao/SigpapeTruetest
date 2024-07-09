@@ -1,9 +1,9 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Service Request Creation,"Login, navigate to service request creation page, select program and sub-program, proceed through steps, and verify successful creation.","Step 1: Navigate to auth/home
+1,Verify Successful Program Enrollment,"Navigate to authentication page, login as admin, create a new application, select program options, and complete enrollment successfully.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest
-Step 5: Select program and sub-program, then proceed to next steps
+Step 5: Select program options and proceed to next steps
 	- Step 1: Click on input formSelectProgramIdLabel
 	- Step 2: Click on item option1
 	- Step 3: Click on input formSelectSubProgramIdLabel
@@ -14,168 +14,17 @@ Step 5: Select program and sub-program, then proceed to next steps
 Step 6: Click on button ok -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",High
-12,Verify Successful Login and Home Page Display,Login and verify successful display of the home page after logging in.,"Step 1: Navigate to auth/home
+6,Verify Admin Login and Home Page Display,"Navigate to authentication page, login as admin, and verify successful display of the admin home page.","Step 1: Navigate to auth/home
 Step 2: Click on button signIn
 Step 3: Login -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",High
-13,Verify Service Request Creation and Home Page Display,"Login, navigate to service request creation page, select program and sub-program, proceed through steps, and verify home page display.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login
-Step 4: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 5: Click on button ok -> Navigate to page ''
-Step 6: Take full page screenshot as checkpoint
-",High
-8,Complex Service Request Creation and Verification,"Login, navigate to service request creation page, select program and sub-program, proceed through multiple steps, and verify successful creation.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on button seeMore
-Step 5: Click on link serviceRequest
-Step 6: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 7: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
-Step 8: Click on link serviceRequest -> Navigate to page 'admin/application-create'
-Step 9: Click on link serviceRequest
-Step 10: Click on link adminHome -> Navigate to page 'admin/home'
-Step 11: Click on link serviceRequest -> Navigate to page 'admin/application-create'
-Step 12: Click on link serviceRequest
-Step 13: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 14: Take full page screenshot as checkpoint
-",High
-2,Verify Service Request Creation with Multiple Steps,"Login, navigate to service request creation page, select program and sub-program, proceed through multiple steps, and verify successful creation.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on link serviceRequest
-Step 5: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 6: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
-Step 7: Click on link serviceRequest
-Step 8: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 9: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
-Step 10: Click on link serviceRequest
-Step 11: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 12: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
-Step 13: Click on link serviceRequest
-Step 14: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 15: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
-Step 16: Click on th requestNo
-Step 17: Click on link serviceRequest -> Navigate to page 'admin/application-create'
-Step 18: Click on link serviceRequest
-Step 19: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 20: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
-Step 21: Click on link serviceRequest
-Step 22: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 23: Click on button ok -> Navigate to page ''
-Step 24: Take full page screenshot as checkpoint
-",Medium
-3,Verify Service Request Creation and Home Page Display,"Login, navigate to service request creation page, select program and sub-program, proceed through steps, and verify home page display.","Step 1: Navigate to auth/home
-Step 2: Click on span bannerButton
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on link serviceRequest
-Step 5: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 6: Click on item mui69617Option1 -> Navigate to page ''
-Step 7: Take full page screenshot as checkpoint
-",Medium
-4,Verify Service Request Creation with Interaction,"Login, navigate to service request creation page, select program and sub-program, interact with elements, and verify successful creation.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on link serviceRequest
-Step 5: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 6: Click on item mui8369Option0
-Step 7: Click on link serviceRequest
-Step 8: Click on button leave -> Navigate to page 'admin/home'
-Step 9: Click on link serviceRequest
-Step 10: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 11: Take full page screenshot as checkpoint
-",Medium
-5,Verify Login and Home Page Display,"Login, navigate to home page, and verify successful display of the home page.","Step 1: Navigate to auth/home
+9,Verify Completing Application Process with Contact Details,"Navigate to authentication page, login as admin, create a new application, select program options, input details, and complete the application process successfully with contact details.","Step 1: Navigate to auth/home
 Step 2: Click on button login
 Step 3: Click on button welcomeSignIn
 Step 4: Login -> Navigate to page 'admin/home'
 Step 5: Click on link serviceRequest
-Step 6: Select program and sub-program, then proceed to next steps
+Step 6: Select program options and proceed to next steps
 	- Step 1: Click on input formSelectProgramIdLabel
 	- Step 2: Click on item option1
 	- Step 3: Click on input formSelectSubProgramIdLabel
@@ -191,12 +40,463 @@ Step 11: Click on link serviceRequest -> Navigate to page 'admin/application-cre
 Step 12: Click on div formDivNthChild4 -> Navigate to page 'auth/home'
 Step 13: Click on button login -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
-",Medium
-6,Verify Service Request Creation and Home Page Display,"Login, navigate to service request creation page, select program and sub-program, proceed through steps, and verify home page display.","Step 1: Navigate to auth/home
+",High
+11,Verify Document Upload and Contact Message,"Navigate to authentication page, login as admin, upload documents, access contacts, send messages, and verify successful process completion.","Step 1: Navigate to auth/home
+Step 2: Click on div welcomeToOneStop
+Step 3: Click on button welcomeSignIn
+Step 4: Login -> Navigate to page 'admin/home'
+Step 5: Click on link serviceRequest
+Step 6: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 7: Take full page screenshot as checkpoint
+",High
+4,Verify Program Enrollment with Banner Button,"Navigate to authentication page, login as admin, create a new application using banner button, select program options, and verify successful enrollment.","Step 1: Navigate to auth/home
+Step 2: Click on span bannerButton
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on link serviceRequest
+Step 5: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 6: Click on button ok -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High
+7,Verify Save and Proceed in Multiple Service Requests,"Navigate to authentication page, login as admin, create multiple service requests, save progress, and verify successful completion.","Step 1: Navigate to auth/home
+Step 2: Click on span bannerButton
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on button myDocuments -> Navigate to page '/admin/personal-profile/documents'
+Step 5: Click on button myPassword
+Step 6: Click on button myProfile
+Step 7: Click on button myDocuments
+Step 8: Click on p uploadDocument
+Step 9: Click on input 1
+Step 10: Click on p uploadDocument
+Step 11: Click on input 2
+Step 12: Click on div uploadDocument
+Step 13: Click on input 3
+Step 14: Click on button saveChanges
+Step 15: Click on button ok -> Navigate to page 'admin/personal-profile'
+Step 16: Click on link serviceRequest
+Step 17: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 18: Click on div dialog
+Step 19: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 20: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 21: Click on item posts
+Step 22: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 23: Click on div serviceRequest
+Step 24: Click on link adminHome
+Step 25: Enter contact details, send a message, and close confirmation
+	- Step 1: Click on link contacts -> Navigate to page 'admin/contacts'
+	- Step 2: Click on div name
+	- Step 3: Click on input name
+	- Step 4: Enter input value in input name
+	- Step 5: Click on input surname
+	- Step 6: Enter input value in input surname
+	- Step 7: Click on input email
+	- Step 8: Enter input value in input email
+	- Step 9: Click on input phone
+	- Step 10: Enter input value in input phone
+	- Step 11: Click on textarea message
+	- Step 12: Enter input value in textarea message
+	- Step 13: Click on button send
+	- Step 14: Click on div yourMessageHasBeenSent
+	- Step 15: Click on button close
+	- Step 16: Click on input name
+	- Step 17: Enter input value in input name
+	- Step 18: Click on input surname
+	- Step 19: Enter input value in input surname
+	- Step 20: Click on input email
+	- Step 21: Enter input value in input email
+	- Step 22: Click on textarea message
+	- Step 23: Enter input value in textarea message
+	- Step 24: Click on input phone
+	- Step 25: Enter input value in input phone
+	- Step 26: Click on button send
+Step 26: Click on span close
+Step 27: Click on link adminHome
+Step 28: Enter contact details, send a message, and close confirmation
+	- Step 1: Click on link contacts -> Navigate to page 'admin/contacts'
+	- Step 2: Click on div name
+	- Step 3: Click on input name
+	- Step 4: Enter input value in input name
+	- Step 5: Click on input surname
+	- Step 6: Enter input value in input surname
+	- Step 7: Click on input email
+	- Step 8: Enter input value in input email
+	- Step 9: Click on input phone
+	- Step 10: Enter input value in input phone
+	- Step 11: Click on textarea message
+	- Step 12: Enter input value in textarea message
+	- Step 13: Click on button send
+	- Step 14: Click on div yourMessageHasBeenSent
+	- Step 15: Click on button close
+	- Step 16: Click on input name
+	- Step 17: Enter input value in input name
+	- Step 18: Click on input surname
+	- Step 19: Enter input value in input surname
+	- Step 20: Click on input email
+	- Step 21: Enter input value in input email
+	- Step 22: Click on textarea message
+	- Step 23: Enter input value in textarea message
+	- Step 24: Click on input phone
+	- Step 25: Enter input value in input phone
+	- Step 26: Click on button send
+Step 29: Click on div dialog
+Step 30: Click on span close
+Step 31: Click on div serviceRequestPostsContacts
+Step 32: Click on link adminHome -> Navigate to page 'admin/home'
+Step 33: Click on button accessHere -> Navigate to page 'admin/information-entity-registration'
+Step 34: Click on button registerEntity -> Navigate to page '/admin/application-create/business-registration/entity-registration'
+Step 35: Click on input selectService
+Step 36: Click on input selectSubservice
+Step 37: Click on div selectServiceSelectSubservice
+Step 38: Click on input selectService
+Step 39: Click on input selectSubservice
+Step 40: Click on div 2ComplementaryData
+Step 41: Click on div 2ComplementaryData
+Step 42: Click on button next
+Step 43: Click on input cd340
+Step 44: Enter input value in input cd340
+Step 45: Click on div whatIsTheTaxIdNumberOf
+Step 46: Click on input cd341
+Step 47: Enter input value in input cd341
+Step 48: Click on input cd342
+Step 49: Enter input value in input cd342
+Step 50: Click on input cd343
+Step 51: Click on input cd343
+Step 52: Enter input value in input cd343
+Step 53: Click on input cd344
+Step 54: Enter input value in input cd344
+Step 55: Click on button next -> Navigate to page 'admin/home'
+Step 56: Click on button accessHere -> Navigate to page 'admin/information-entity-dissolution'
+Step 57: Click on button dissolveEntity -> Navigate to page 'admin/application-create/business-registration/entity-dissolution'
+Step 58: Click on input selectService
+Step 59: Click on input selectSubservice
+Step 60: Click on div serviceRequestPostsContacts
+Step 61: Click on button next
+Step 62: Click on input cd340
+Step 63: Enter input value in input cd340
+Step 64: Click on input cd341
+Step 65: Enter input value in input cd341
+Step 66: Click on input cd342
+Step 67: Enter input value in input cd342
+Step 68: Click on input cd343
+Step 69: Enter input value in input cd343
+Step 70: Click on form object
+Step 71: Click on button next -> Navigate to page 'admin/application-create'
+Step 72: Click on link adminHome -> Navigate to page 'admin/home'
+Step 73: Click on link adminHome
+Step 74: Click on button userMenu
+Step 75: Click on span signOut -> Navigate to page ''
+Step 76: Take full page screenshot as checkpoint
+",High
+8,Verify Service Request Handling and Contact Management,"Navigate to authentication page, login as admin, handle service requests, manage contacts, and verify successful completion.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest
-Step 5: Select program and sub-program, then proceed to next steps
+Step 5: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 6: Click on div serviceRequestPostsContacts17KbkatalonBeta
+Step 7: Click on link serviceRequest
+Step 8: Click on button save -> Navigate to page 'admin/home'
+Step 9: Click on button ok
+Step 10: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 11: Click on link serviceRequest
+Step 12: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 13: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 14: Click on link serviceRequest
+Step 15: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 16: Click on button save -> Navigate to page 'admin/home'
+Step 17: Click on button ok
+Step 18: Click on link serviceRequest
+Step 19: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 20: Click on button save -> Navigate to page 'admin/home'
+Step 21: Click on div yourRequestWasSaved
+Step 22: Click on link serviceRequest
+Step 23: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 24: Click on button save -> Navigate to page 'admin/home'
+Step 25: Click on button ok
+Step 26: Click on div serviceRequestPosts
+Step 27: Click on link serviceRequest
+Step 28: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 29: Click on div object
+Step 30: Click on link serviceRequest
+Step 31: Click on button leave -> Navigate to page 'admin/home'
+Step 32: Click on item posts
+Step 33: Enter contact details, send a message, and close confirmation
+	- Step 1: Click on link contacts -> Navigate to page 'admin/contacts'
+	- Step 2: Click on div name
+	- Step 3: Click on input name
+	- Step 4: Enter input value in input name
+	- Step 5: Click on input surname
+	- Step 6: Enter input value in input surname
+	- Step 7: Click on input email
+	- Step 8: Enter input value in input email
+	- Step 9: Click on input phone
+	- Step 10: Enter input value in input phone
+	- Step 11: Click on textarea message
+	- Step 12: Enter input value in textarea message
+	- Step 13: Click on button send
+	- Step 14: Click on div yourMessageHasBeenSent
+	- Step 15: Click on button close
+	- Step 16: Click on input name
+	- Step 17: Enter input value in input name
+	- Step 18: Click on input surname
+	- Step 19: Enter input value in input surname
+	- Step 20: Click on input email
+	- Step 21: Enter input value in input email
+	- Step 22: Click on textarea message
+	- Step 23: Enter input value in textarea message
+	- Step 24: Click on input phone
+	- Step 25: Enter input value in input phone
+	- Step 26: Click on button send
+Step 34: Click on button close
+Step 35: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 36: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 37: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 38: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 39: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 40: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 41: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 42: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 43: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 44: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 45: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 46: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 47: Click on div serviceRequestPostsContacts
+Step 48: Click on span contactsContactsBasedInLisbon -> Navigate to page 'admin/home'
+Step 49: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 50: Click on span contactsContactsBasedInLisbon -> Navigate to page 'admin/home'
+Step 51: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 52: Click on span contactsContactsBasedInLisbon -> Navigate to page 'admin/home'
+Step 53: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 54: Click on span contactsContactsBasedInLisbon -> Navigate to page 'admin/home'
+Step 55: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 56: Click on span contactsContactsBasedInLisbon -> Navigate to page 'admin/home'
+Step 57: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 58: Click on span contactsContactsBasedInLisbon -> Navigate to page 'admin/home'
+Step 59: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 60: Click on span contactsContactsBasedInLisbon -> Navigate to page 'admin/home'
+Step 61: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 62: Click on span contactsContactsBasedInLisbon -> Navigate to page 'admin/home'
+Step 63: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 64: Click on span contactsContactsBasedInLisbon -> Navigate to page 'admin/home'
+Step 65: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 66: Click on span contactsContactsBasedInLisbon -> Navigate to page 'admin/home'
+Step 67: Click on link contacts -> Navigate to page ''
+Step 68: Take full page screenshot as checkpoint
+",High
+13,Verify Notifications and Search Functionality,"Navigate to authentication page, login as admin, access notifications, perform searches, and verify functionality.","Step 1: Navigate to admin/home
+Step 2: Click on link serviceRequest
+Step 3: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 4: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 5: Click on link serviceRequest
+Step 6: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 7: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 8: Click on link serviceRequest
+Step 9: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 10: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 11: Click on link serviceRequest
+Step 12: Select program and sub-program options, input details, and proceed
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item mui74876Option0
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item option2
+	- Step 5: Click on button next
+	- Step 6: Click on input cd324
+	- Step 7: Enter input value in input cd324
+	- Step 8: Click on input cd325
+	- Step 9: Enter input value in input cd325
+	- Step 10: Click on input cd326
+	- Step 11: Enter input value in input cd326
+	- Step 12: Click on input cd327
+	- Step 13: Enter input value in input cd327
+	- Step 14: Click on button next
+	- Step 15: Click on button next
+Step 13: Click on link serviceRequest
+Step 14: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 15: Click on div dialog
+Step 16: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 17: Click on link serviceRequest
+Step 18: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 19: Click on body object
+Step 20: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 21: Click on link serviceRequest
+Step 22: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 23: Click on item mui74876Option0 -> Navigate to page 'auth/home'
+Step 24: Click on button login
+Step 25: Click on header object
+Step 26: Click on span bannerButton
+Step 27: Login -> Navigate to page 'admin/home'
+Step 28: Click on link serviceRequest
+Step 29: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 30: Click on link adminHome
+Step 31: Click on button save -> Navigate to page 'admin/home'
+Step 32: Click on button ok
+Step 33: Click on button bannerButton
+Step 34: Click on link adminApplicationCreate
+Step 35: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 36: Click on item mui74876Option0
+Step 37: Click on span bannerButton
+Step 38: Click on link adminApplicationCreate
+Step 39: Click on html object
+Step 40: Click on div serviceRequest -> Navigate to page 'auth/home'
+Step 41: Click on button login
+Step 42: Click on button welcomeSignIn
+Step 43: Login -> Navigate to page 'admin/home'
+Step 44: Click on link serviceRequest
+Step 45: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 46: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 47: Click on link serviceRequest
+Step 48: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 49: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 50: Click on link adminHome -> Navigate to page 'auth/home'
+Step 51: Click on button login
+Step 52: Click on span bannerButton
+Step 53: Login -> Navigate to page 'admin/home'
+Step 54: Click on button notificationsDropdownIconButton
+Step 55: Click on button seeAll -> Navigate to page 'admin/notifications'
+Step 56: Click on button notificationsDropdownIconButton
+Step 57: Click on list object
+Step 58: Click on button seeAll
+Step 59: Click on input formSelectOriginLabel
+Step 60: Click on div formSvg
+Step 61: Click on input search -> Navigate to page ''
+Step 62: Take full page screenshot as checkpoint
+",High
+12,Verify Program Enrollment with Span Button,"Navigate to authentication page, login as admin, select program options using span button, and verify successful enrollment.","Step 1: Navigate to auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on link serviceRequest
+Step 5: Select program options and proceed to next steps
 	- Step 1: Click on input formSelectProgramIdLabel
 	- Step 2: Click on item option1
 	- Step 3: Click on input formSelectSubProgramIdLabel
@@ -207,12 +507,12 @@ Step 5: Select program and sub-program, then proceed to next steps
 Step 6: Click on span button -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",Medium
-7,Verify Information Dissemination Schedule Search and Service Request Creation,"Login, navigate to information dissemination schedule, search and select options, create service request, and verify successful creation.","Step 1: Navigate to auth/home
-Step 2: Click on header object
-Step 3: Click on span bannerButton
-Step 4: Login -> Navigate to page 'admin/home'
-Step 5: Click on link serviceRequest
-Step 6: Select program and sub-program, then proceed to next steps
+17,Verify Subscription Process after Program Selection,"Navigate to authentication page, login as admin, select program options, subscribe, and verify successful completion.","Step 1: Navigate to auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 5: Click on item option1
+Step 6: Select program options and proceed to next steps
 	- Step 1: Click on input formSelectProgramIdLabel
 	- Step 2: Click on item option1
 	- Step 3: Click on input formSelectSubProgramIdLabel
@@ -220,62 +520,11 @@ Step 6: Select program and sub-program, then proceed to next steps
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
-Step 7: Click on link adminHome
-Step 8: Click on button save -> Navigate to page 'admin/home'
-Step 9: Click on button ok
-Step 10: Click on button bannerButton
-Step 11: Click on link adminApplicationCreate
-Step 12: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 13: Click on item mui74876Option0
-Step 14: Click on span bannerButton
-Step 15: Click on link adminApplicationCreate
-Step 16: Click on html object
-Step 17: Click on div serviceRequest -> Navigate to page 'auth/home'
-Step 18: Click on button login
-Step 19: Click on button welcomeSignIn
-Step 20: Login -> Navigate to page 'admin/home'
-Step 21: Click on link serviceRequest
-Step 22: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 23: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
-Step 24: Click on link serviceRequest
-Step 25: Select program and sub-program, then proceed to next steps
-	- Step 1: Click on input formSelectProgramIdLabel
-	- Step 2: Click on item option1
-	- Step 3: Click on input formSelectSubProgramIdLabel
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 26: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
-Step 27: Click on link adminHome -> Navigate to page 'auth/home'
-Step 28: Click on button login
-Step 29: Click on span bannerButton
-Step 30: Login -> Navigate to page 'admin/home'
-Step 31: Click on button notificationsDropdownIconButton
-Step 32: Click on button seeAll -> Navigate to page 'admin/notifications'
-Step 33: Click on button notificationsDropdownIconButton
-Step 34: Click on list object
-Step 35: Click on button seeAll
-Step 36: Click on input formSelectOriginLabel
-Step 37: Click on div formSvg
-Step 38: Click on input search -> Navigate to page ''
-Step 39: Take full page screenshot as checkpoint
+Step 7: Click on button subscribe
+Step 8: Click on button subscribe -> Navigate to page ''
+Step 9: Take full page screenshot as checkpoint
 ",Medium
-10,Verify Service Request Creation with Interaction,"Login, navigate to service request creation page, interact with elements, select program and sub-program, proceed through steps, and verify successful creation.","Step 1: Navigate to auth/home
+15,Verify Schedule Search and Service Request Handling,"Navigate to authentication page, login as admin, search schedules, handle service requests, and verify successful completion.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on div bannerRoleListitemSvg
@@ -289,7 +538,7 @@ Step 11: Click on button open
 Step 12: Click on item mui31940Option0
 Step 13: Click on button search
 Step 14: Click on link serviceRequest
-Step 15: Select program and sub-program, then proceed to next steps
+Step 15: Select program options and proceed to next steps
 	- Step 1: Click on input formSelectProgramIdLabel
 	- Step 2: Click on item option1
 	- Step 3: Click on input formSelectSubProgramIdLabel
@@ -300,7 +549,7 @@ Step 15: Select program and sub-program, then proceed to next steps
 Step 16: Click on link serviceRequest
 Step 17: Click on button leave -> Navigate to page 'admin/home'
 Step 18: Click on link serviceRequest
-Step 19: Select program and sub-program, then proceed to next steps
+Step 19: Select program options and proceed to next steps
 	- Step 1: Click on input formSelectProgramIdLabel
 	- Step 2: Click on item option1
 	- Step 3: Click on input formSelectSubProgramIdLabel
@@ -310,7 +559,7 @@ Step 19: Select program and sub-program, then proceed to next steps
 	- Step 7: Click on button next
 Step 20: Click on item mui74876Option0 -> Navigate to page 'admin/home'
 Step 21: Click on link serviceRequest
-Step 22: Select program and sub-program, then proceed to next steps
+Step 22: Select program options and proceed to next steps
 	- Step 1: Click on input formSelectProgramIdLabel
 	- Step 2: Click on item option1
 	- Step 3: Click on input formSelectSubProgramIdLabel
@@ -321,12 +570,11 @@ Step 22: Select program and sub-program, then proceed to next steps
 Step 23: Click on item mui74876Option0 -> Navigate to page ''
 Step 24: Take full page screenshot as checkpoint
 ",Medium
-11,Verify Service Request Creation with Multiple Steps,"Login, navigate to service request creation page, select program and sub-program, proceed through multiple steps, and verify successful creation.","Step 1: Navigate to auth/home
+3,Verify Program Enrollment with Item Selection,"Navigate to authentication page, login as admin, select program options, choose items, and verify successful enrollment.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on link serviceRequest -> Navigate to page 'admin/application-create'
-Step 5: Click on div saveYourRequest1Service
-Step 6: Select program and sub-program, then proceed to next steps
+Step 4: Click on link serviceRequest
+Step 5: Select program options and proceed to next steps
 	- Step 1: Click on input formSelectProgramIdLabel
 	- Step 2: Click on item option1
 	- Step 3: Click on input formSelectSubProgramIdLabel
@@ -334,19 +582,47 @@ Step 6: Select program and sub-program, then proceed to next steps
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
-Step 7: Take full page screenshot as checkpoint
+Step 6: Click on item mui8369Option0
+Step 7: Click on link serviceRequest
+Step 8: Click on button leave -> Navigate to page 'admin/home'
+Step 9: Click on link serviceRequest
+Step 10: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 11: Take full page screenshot as checkpoint
 ",Medium
-9,Verify Service Request Creation and Home Page Display,"Login, navigate to service request creation page, interact with elements, select program and sub-program, proceed through steps, and verify home page display.","Step 1: Login
-Step 2: Navigate to admin/application-create
-Step 3: Click on div serviceRequestPostsContactsHelderFigueiredo
-Step 4: Click on div complementaryDataNth0
-Step 5: Click on div complementaryDataNth0
-Step 6: Click on div complementaryDataNth1
-Step 7: Click on button userDropdownButton
-Step 8: Click on span myRequests -> Navigate to page 'admin/my-applications'
-Step 9: Click on button genericButtonUndefined
-Step 10: Click on link serviceRequest
-Step 11: Select program and sub-program, then proceed to next steps
+10,Verify Program Enrollment with Sub program Details,"Navigate to authentication page, login as admin, select program and sub-program options, input details, and verify successful enrollment.","Step 1: Navigate to auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login
+Step 4: Select program and sub-program options, input details, and proceed
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item mui74876Option0
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item option2
+	- Step 5: Click on button next
+	- Step 6: Click on input cd324
+	- Step 7: Enter input value in input cd324
+	- Step 8: Click on input cd325
+	- Step 9: Enter input value in input cd325
+	- Step 10: Click on input cd326
+	- Step 11: Enter input value in input cd326
+	- Step 12: Click on input cd327
+	- Step 13: Enter input value in input cd327
+	- Step 14: Click on button next
+	- Step 15: Click on button next
+Step 5: Take full page screenshot as checkpoint
+",Medium
+5,Verify Service Request Handling with See More Option,"Navigate to authentication page, login as admin, handle service requests, use 'See More' option, and verify successful completion.","Step 1: Navigate to auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on button seeMore
+Step 5: Click on link serviceRequest
+Step 6: Select program options and proceed to next steps
 	- Step 1: Click on input formSelectProgramIdLabel
 	- Step 2: Click on item option1
 	- Step 3: Click on input formSelectSubProgramIdLabel
@@ -354,14 +630,151 @@ Step 11: Select program and sub-program, then proceed to next steps
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
-Step 12: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
-Step 13: Click on button seeDetails
-Step 14: Click on div cesprEas202454286Nth2
-Step 15: Click on span close
-Step 16: Click on button seePaymentInformation
-Step 17: Click on span close
-Step 18: Click on div serviceRequestPostsContactsHelderFigueiredo
-Step 19: Click on button seePaymentInformation -> Navigate to page '/admin/edit-application/CESPR EAS202454286'
-Step 20: Click on div serviceRequestPostsContactsHelderFigueiredo -> Navigate to page ''
-Step 21: Take full page screenshot as checkpoint
+Step 7: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 8: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 9: Click on link serviceRequest
+Step 10: Click on link adminHome -> Navigate to page 'admin/home'
+Step 11: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 12: Click on link serviceRequest
+Step 13: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 14: Take full page screenshot as checkpoint
+",Medium
+2,Verify Program Enrollment and Application Details,"Navigate to authentication page, login as admin, select program options, proceed with application details, and verify successful completion.","Step 1: Navigate to auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on link serviceRequest
+Step 5: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 6: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 7: Click on link serviceRequest
+Step 8: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 9: Take full page screenshot as checkpoint
 ",Low
+16,Verify Multiple Program Enrollments and Request Handling,"Navigate to authentication page, login as admin, handle multiple program enrollments, and verify successful completion.","Step 1: Navigate to auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on link serviceRequest
+Step 5: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 6: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 7: Click on link serviceRequest
+Step 8: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 9: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 10: Click on link serviceRequest
+Step 11: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 12: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 13: Click on link serviceRequest
+Step 14: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 15: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 16: Click on th requestNo
+Step 17: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 18: Click on link serviceRequest
+Step 19: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 20: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 21: Click on link serviceRequest
+Step 22: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 23: Click on button ok -> Navigate to page ''
+Step 24: Take full page screenshot as checkpoint
+",Low
+14,Verify Service Request Handling and User Management,"Navigate to authentication page, login as admin, handle service requests, manage users, and verify successful completion.","Step 1: Navigate to auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on link serviceRequest
+Step 5: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 6: Click on div serviceRequest
+Step 7: Click on div serviceRequest
+Step 8: Click on div serviceRequestPostsContacts17KbkatalonBeta
+Step 9: Click on div complementaryDataNth0
+Step 10: Click on div complementaryDataNth0
+Step 11: Click on div complementaryDataNth1
+Step 12: Click on button userDropdownButton
+Step 13: Click on span myRequests -> Navigate to page '/admin/my-applications'
+Step 14: Click on button genericButtonUndefined
+Step 15: Click on link serviceRequest
+Step 16: Select program options and proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 17: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 18: Click on button seeDetails
+Step 19: Click on div cesprEas202454286Nth2
+Step 20: Click on span close
+Step 21: Click on button seePaymentInformation
+Step 22: Click on span close
+Step 23: Click on div serviceRequestPostsContactsHelderFigueiredo
+Step 24: Click on button seePaymentInformation -> Navigate to page '/admin/edit-application/CESPR EAS202454286'
+Step 25: Click on div serviceRequestPostsContactsHelderFigueiredo -> Navigate to page ''
+Step 26: Take full page screenshot as checkpoint
+",Trivial
