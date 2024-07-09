@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Contacts</name>
+   <tag></tag>
+   <elementGuidId>d08524ae-2246-4900-8cdb-a52c9a900950</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/header/div/div/div/div[4]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiBox-root.jss10352 > a.MuiListItem-root.jss10313.MuiListItem-gutters</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Contacts&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2f0477e8-4118-4230-a2e3-3c0610e60926</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiListItem-root jss10313 MuiListItem-gutters</value>
+      <webElementGuid>4f5f7c18-903e-48d6-9f7f-878498848025</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/admin/contacts</value>
+      <webElementGuid>50a15d8e-3307-4c39-b1ca-fcee9efff0fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Contacts</value>
+      <webElementGuid>1798fb25-6e4b-4763-a8d2-0333e087f826</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;MuiBox-root jss10308&quot;]/div[@class=&quot;MuiBox-root jss10309 jss10307&quot;]/header[@class=&quot;MuiPaper-root MuiAppBar-root jss10310 MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation0&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-regular&quot;]/div[@class=&quot;MuiBox-root jss10320 MuiContainer-root jss10311&quot;]/div[@class=&quot;MuiBox-root jss10321&quot;]/div[@class=&quot;jss10330&quot;]/div[@class=&quot;MuiBox-root jss10352&quot;]/a[@class=&quot;MuiListItem-root jss10313 MuiListItem-gutters&quot;]</value>
+      <webElementGuid>a20bd592-3e54-434c-a044-e76bd82c728c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/header/div/div/div/div[4]/div/a</value>
+      <webElementGuid>6b1a2390-69cb-4a94-bf05-577ad2d2e00a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Posts'])[1]/following::a[1]</value>
+      <webElementGuid>27b0fa71-949d-4900-9907-5dc529e4fe45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Katalon Beta'])[1]/preceding::a[1]</value>
+      <webElementGuid>69698d08-d6b4-4177-88e8-96e606c0e09f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Contacts']/parent::*</value>
+      <webElementGuid>c64511f9-d07c-4fc6-b7a4-251c1acf1ef1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/admin/contacts')]</value>
+      <webElementGuid>f5b2a80b-97ac-477b-8d4a-22300eb43d9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/a</value>
+      <webElementGuid>8aad6a97-e3f0-4c0d-8cd2-2a5f8dff61e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/admin/contacts' and (text() = ' Contacts' or . = ' Contacts')]</value>
+      <webElementGuid>3894cecd-40fa-4c7f-ba13-c8c418d25479</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
