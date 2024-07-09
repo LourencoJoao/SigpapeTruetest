@@ -1,0 +1,18 @@
+{
+    "steps": [
+        "step 1: Navigate to auth/home",
+        "step 2: Click on button welcomeSignIn",
+        "step 3: Login -> Navigate to page 'admin/home'",
+        "step 4: Click on button seeMore",
+        "step 5: Click on link serviceRequest",
+        "step 6: Select a service and sub-service before proceeding to next steps",
+        "step 7: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'",
+        "step 8: Click on link serviceRequest -> Navigate to page 'admin/application-create'",
+        "step 9: Click on link serviceRequest",
+        "step 10: Click on link adminHome -> Navigate to page 'admin/home'",
+        "step 11: Click on link serviceRequest -> Navigate to page 'admin/application-create'",
+        "step 12: Click on link serviceRequest",
+        "step 13: Select a service and sub-service before proceeding to next steps",
+        "step 14: Take full page screenshot as checkpoint"
+    ]
+}
