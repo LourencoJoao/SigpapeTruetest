@@ -1,9 +1,9 @@
-import katalon.truetest.TrueTestScripts
-import katalon.common.selectServiceAndSubserviceBeforeProceeding
 import internal.GlobalVariable
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.configuration.RunConfiguration
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import katalon.truetest.TrueTestScripts
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import katalon.common.selectProgramAndSubProgramAndProceed
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -39,9 +39,9 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_home/link_serviceReq
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 4: Click on link serviceRequest.png')
 
-"Step 5: Select a service and sub-service before proceeding to next steps"
+"Step 5: Select program and sub-program, then proceed to next steps"
 
-selectServiceAndSubserviceBeforeProceeding.execute()
+selectProgramAndSubProgramAndProceed.execute()
 
 "Step 6: Click on button ok -> Navigate to page ''"
 
@@ -53,7 +53,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 6: Click on button ok - Navigat
 
 "Step 7: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Service Request Creation and Completion_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Service Request Creation_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

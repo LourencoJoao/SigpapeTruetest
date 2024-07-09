@@ -6,15 +6,15 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-public class selectServiceAndSubserviceBeforeProceeding {
+public class selectProgramAndSubProgramAndProceed {
     
     private static def execute_functional_method(Map data) {
-        "Step 1: Click on input selectAservice"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_application_create/input_selectAservice'))
-        "Step 2: Click on item mui24321Option1"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_application_create/item_mui24321Option1'))
-        "Step 3: Click on input selectAsubservice"
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_application_create/input_selectAsubservice'))
+        "Step 1: Click on input formSelectProgramIdLabel"
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_application_create/input_formSelectProgramIdLabel'))
+        "Step 2: Click on item option1"
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_application_create/item_option1'))
+        "Step 3: Click on input formSelectSubProgramIdLabel"
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_application_create/input_formSelectSubProgramIdLabel'))
         "Step 4: Click on item mui74876Option0"
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_application_create/item_mui74876Option0'))
         "Step 5: Click on button next"

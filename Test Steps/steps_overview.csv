@@ -1,12 +1,12 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Service Request Creation and Completion,"Navigate to authentication page, login as admin, create a service request, select service and sub-service, complete the request, and verify the home page.","Step 1: Navigate to auth/home
+1,Verify Successful Service Request Creation,"Login, navigate to service request creation page, select program and sub-program, proceed through steps, and verify successful creation.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest
-Step 5: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 5: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
@@ -14,20 +14,34 @@ Step 5: Select a service and sub-service before proceeding to next steps
 Step 6: Click on button ok -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",High
-12,Verify Successful Login and Homepage Display,"Navigate to authentication page, sign in, login as admin, and verify successful display of the home page.","Step 1: Navigate to auth/home
+12,Verify Successful Login and Home Page Display,Login and verify successful display of the home page after logging in.,"Step 1: Navigate to auth/home
 Step 2: Click on button signIn
 Step 3: Login -> Navigate to page ''
 Step 4: Take full page screenshot as checkpoint
 ",High
-8,Verify Multiple Service Request Creations,"Navigate to authentication page, login as admin, create multiple service requests, select services and sub-services, complete the requests, and verify the home page.","Step 1: Navigate to auth/home
+13,Verify Service Request Creation and Home Page Display,"Login, navigate to service request creation page, select program and sub-program, proceed through steps, and verify home page display.","Step 1: Navigate to auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login
+Step 4: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 5: Click on button ok -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",High
+8,Complex Service Request Creation and Verification,"Login, navigate to service request creation page, select program and sub-program, proceed through multiple steps, and verify successful creation.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on button seeMore
 Step 5: Click on link serviceRequest
-Step 6: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 6: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
@@ -38,54 +52,54 @@ Step 9: Click on link serviceRequest
 Step 10: Click on link adminHome -> Navigate to page 'admin/home'
 Step 11: Click on link serviceRequest -> Navigate to page 'admin/application-create'
 Step 12: Click on link serviceRequest
-Step 13: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 13: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
 Step 14: Take full page screenshot as checkpoint
 ",High
-2,Verify Complex Service Request Creation Process,"Navigate to authentication page, login as admin, create complex service requests with multiple steps, select services and sub-services, complete the requests, and verify the home page.","Step 1: Navigate to auth/home
+2,Verify Service Request Creation with Multiple Steps,"Login, navigate to service request creation page, select program and sub-program, proceed through multiple steps, and verify successful creation.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest
-Step 5: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 5: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
 Step 6: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
 Step 7: Click on link serviceRequest
-Step 8: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 8: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
 Step 9: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
 Step 10: Click on link serviceRequest
-Step 11: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 11: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
 Step 12: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
 Step 13: Click on link serviceRequest
-Step 14: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 14: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
@@ -94,20 +108,20 @@ Step 15: Click on button ok -> Navigate to page 'admin/my-applications/governmen
 Step 16: Click on th requestNo
 Step 17: Click on link serviceRequest -> Navigate to page 'admin/application-create'
 Step 18: Click on link serviceRequest
-Step 19: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 19: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
 Step 20: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
 Step 21: Click on link serviceRequest
-Step 22: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 22: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
@@ -115,14 +129,14 @@ Step 22: Select a service and sub-service before proceeding to next steps
 Step 23: Click on button ok -> Navigate to page ''
 Step 24: Take full page screenshot as checkpoint
 ",Medium
-3,Verify Service Request Creation with Specific Options,"Navigate to authentication page, login as admin, create a service request with specific options, select service and sub-service, complete the request, and verify the home page.","Step 1: Navigate to auth/home
+3,Verify Service Request Creation and Home Page Display,"Login, navigate to service request creation page, select program and sub-program, proceed through steps, and verify home page display.","Step 1: Navigate to auth/home
 Step 2: Click on span bannerButton
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest
-Step 5: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 5: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
@@ -130,14 +144,14 @@ Step 5: Select a service and sub-service before proceeding to next steps
 Step 6: Click on item mui69617Option1 -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",Medium
-4,Verify Service Request Creation and Leaving Process,"Navigate to authentication page, login as admin, create a service request, select service and sub-service, leave the request, and verify the home page.","Step 1: Navigate to auth/home
+4,Verify Service Request Creation with Interaction,"Login, navigate to service request creation page, select program and sub-program, interact with elements, and verify successful creation.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest
-Step 5: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 5: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
@@ -146,25 +160,25 @@ Step 6: Click on item mui8369Option0
 Step 7: Click on link serviceRequest
 Step 8: Click on button leave -> Navigate to page 'admin/home'
 Step 9: Click on link serviceRequest
-Step 10: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 10: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
 Step 11: Take full page screenshot as checkpoint
 ",Medium
-5,Verify Service Request Creation with Additional Actions,"Navigate to authentication page, login as admin, create a service request, select service and sub-service, perform additional actions, and verify the home page.","Step 1: Navigate to auth/home
+5,Verify Login and Home Page Display,"Login, navigate to home page, and verify successful display of the home page.","Step 1: Navigate to auth/home
 Step 2: Click on button login
 Step 3: Click on button welcomeSignIn
 Step 4: Login -> Navigate to page 'admin/home'
 Step 5: Click on link serviceRequest
-Step 6: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 6: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
@@ -178,14 +192,14 @@ Step 12: Click on div formDivNthChild4 -> Navigate to page 'auth/home'
 Step 13: Click on button login -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",Medium
-6,Verify Service Request Creation with Span Button Action,"Navigate to authentication page, login as admin, create a service request, select service and sub-service, use span button action, and verify the home page.","Step 1: Navigate to auth/home
+6,Verify Service Request Creation and Home Page Display,"Login, navigate to service request creation page, select program and sub-program, proceed through steps, and verify home page display.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest
-Step 5: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 5: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
@@ -193,15 +207,15 @@ Step 5: Select a service and sub-service before proceeding to next steps
 Step 6: Click on span button -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",Medium
-7,Verify Service Request Creation with Multiple Navigation Steps,"Navigate to authentication page, login as admin, create a service request, select service and sub-service, navigate through multiple pages, complete the request, and verify the home page.","Step 1: Navigate to auth/home
+7,Verify Information Dissemination Schedule Search and Service Request Creation,"Login, navigate to information dissemination schedule, search and select options, create service request, and verify successful creation.","Step 1: Navigate to auth/home
 Step 2: Click on header object
 Step 3: Click on span bannerButton
 Step 4: Login -> Navigate to page 'admin/home'
 Step 5: Click on link serviceRequest
-Step 6: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 6: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
@@ -211,10 +225,10 @@ Step 8: Click on button save -> Navigate to page 'admin/home'
 Step 9: Click on button ok
 Step 10: Click on button bannerButton
 Step 11: Click on link adminApplicationCreate
-Step 12: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 12: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
@@ -228,44 +242,101 @@ Step 18: Click on button login
 Step 19: Click on button welcomeSignIn
 Step 20: Login -> Navigate to page 'admin/home'
 Step 21: Click on link serviceRequest
-Step 22: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 22: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
 Step 23: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
 Step 24: Click on link serviceRequest
-Step 25: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 25: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
 Step 26: Click on button ok -> Navigate to page 'admin/my-applications/government-program-application'
-Step 27: Click on link adminHome -> Navigate to page ''
-Step 28: Take full page screenshot as checkpoint
+Step 27: Click on link adminHome -> Navigate to page 'auth/home'
+Step 28: Click on button login
+Step 29: Click on span bannerButton
+Step 30: Login -> Navigate to page 'admin/home'
+Step 31: Click on button notificationsDropdownIconButton
+Step 32: Click on button seeAll -> Navigate to page 'admin/notifications'
+Step 33: Click on button notificationsDropdownIconButton
+Step 34: Click on list object
+Step 35: Click on button seeAll
+Step 36: Click on input formSelectOriginLabel
+Step 37: Click on div formSvg
+Step 38: Click on input search -> Navigate to page ''
+Step 39: Take full page screenshot as checkpoint
 ",Medium
-11,Verify Service Request Creation with Specific Service Selection,"Login at admin application creation page, select a specific service and sub-service, proceed to next steps, and verify the home page.","Step 1: Navigate to auth/home
+10,Verify Service Request Creation with Interaction,"Login, navigate to service request creation page, interact with elements, select program and sub-program, proceed through steps, and verify successful creation.","Step 1: Navigate to auth/home
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on div bannerRoleListitemSvg
+Step 5: Click on link schedule -> Navigate to page 'admin/informationDissemination/schedule'
+Step 6: Click on input search
+Step 7: Enter input value in input search
+Step 8: Click on div clearFiltersSearch
+Step 9: Click on input selectAn
+Step 10: Click on span open
+Step 11: Click on button open
+Step 12: Click on item mui31940Option0
+Step 13: Click on button search
+Step 14: Click on link serviceRequest
+Step 15: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 16: Click on link serviceRequest
+Step 17: Click on button leave -> Navigate to page 'admin/home'
+Step 18: Click on link serviceRequest
+Step 19: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 20: Click on item mui74876Option0 -> Navigate to page 'admin/home'
+Step 21: Click on link serviceRequest
+Step 22: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
+	- Step 4: Click on item mui74876Option0
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 23: Click on item mui74876Option0 -> Navigate to page ''
+Step 24: Take full page screenshot as checkpoint
+",Medium
+11,Verify Service Request Creation with Multiple Steps,"Login, navigate to service request creation page, select program and sub-program, proceed through multiple steps, and verify successful creation.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest -> Navigate to page 'admin/application-create'
 Step 5: Click on div saveYourRequest1Service
-Step 6: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 6: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
 Step 7: Take full page screenshot as checkpoint
 ",Medium
-9,Verify Service Request Creation and Information Display,"Navigate to authentication page, login as admin, create a service request, select service and sub-service, view request details and payment information, and verify the home page.","Step 1: Login
+9,Verify Service Request Creation and Home Page Display,"Login, navigate to service request creation page, interact with elements, select program and sub-program, proceed through steps, and verify home page display.","Step 1: Login
 Step 2: Navigate to admin/application-create
 Step 3: Click on div serviceRequestPostsContactsHelderFigueiredo
 Step 4: Click on div complementaryDataNth0
@@ -275,10 +346,10 @@ Step 7: Click on button userDropdownButton
 Step 8: Click on span myRequests -> Navigate to page 'admin/my-applications'
 Step 9: Click on button genericButtonUndefined
 Step 10: Click on link serviceRequest
-Step 11: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
+Step 11: Select program and sub-program, then proceed to next steps
+	- Step 1: Click on input formSelectProgramIdLabel
+	- Step 2: Click on item option1
+	- Step 3: Click on input formSelectSubProgramIdLabel
 	- Step 4: Click on item mui74876Option0
 	- Step 5: Click on button next
 	- Step 6: Click on button next
@@ -293,50 +364,4 @@ Step 18: Click on div serviceRequestPostsContactsHelderFigueiredo
 Step 19: Click on button seePaymentInformation -> Navigate to page '/admin/edit-application/CESPR EAS202454286'
 Step 20: Click on div serviceRequestPostsContactsHelderFigueiredo -> Navigate to page ''
 Step 21: Take full page screenshot as checkpoint
-",Low
-10,Verify Schedule Management and Service Request Creation,"Navigate to authentication page, login as admin, manage schedule, search, select options, create service request, select service and sub-service, complete the request, and verify the home page.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on div bannerRoleListitemSvg
-Step 5: Click on link schedule -> Navigate to page 'admin/informationDissemination/schedule'
-Step 6: Click on input search
-Step 7: Enter input value in input search
-Step 8: Click on div clearFiltersSearch
-Step 9: Click on input selectAn
-Step 10: Click on span open
-Step 11: Click on button open
-Step 12: Click on item mui31940Option0
-Step 13: Click on button search
-Step 14: Click on link serviceRequest
-Step 15: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 16: Click on link serviceRequest
-Step 17: Click on button leave -> Navigate to page 'admin/home'
-Step 18: Click on link serviceRequest
-Step 19: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 20: Click on item mui74876Option0 -> Navigate to page 'admin/home'
-Step 21: Click on link serviceRequest
-Step 22: Select a service and sub-service before proceeding to next steps
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item mui24321Option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 23: Click on item mui74876Option0 -> Navigate to page ''
-Step 24: Take full page screenshot as checkpoint
 ",Low

@@ -1,7 +1,7 @@
-import katalon.truetest.TrueTestScripts
 import internal.GlobalVariable
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.configuration.RunConfiguration
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import katalon.truetest.TrueTestScripts
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 def reportLocation = RunConfiguration.getReportFolder()
@@ -32,7 +32,7 @@ TrueTestScripts.login()
 
 "Step 4: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC12-Verify Successful Login and Homepage Display_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC12-Verify Successful Login and Home Page Display_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
