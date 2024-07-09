@@ -1,0 +1,30 @@
+{
+    "steps": [
+        "step 1: Navigate to auth/home",
+        "step 2: Click on button welcomeSignIn",
+        "step 3: Login -> Navigate to page 'admin/home'",
+        "step 4: Click on link serviceRequest",
+        "step 5: Select program options and proceed to next steps",
+        "step 6: Click on div serviceRequest",
+        "step 7: Click on div serviceRequest",
+        "step 8: Click on div serviceRequestPostsContacts17KbkatalonBeta",
+        "step 9: Click on div complementaryDataNth0",
+        "step 10: Click on div complementaryDataNth0",
+        "step 11: Click on div complementaryDataNth1",
+        "step 12: Click on button userDropdownButton",
+        "step 13: Click on span myRequests -> Navigate to page '/admin/my-applications'",
+        "step 14: Click on button genericButtonUndefined",
+        "step 15: Click on link serviceRequest",
+        "step 16: Select program options and proceed to next steps",
+        "step 17: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'",
+        "step 18: Click on button seeDetails",
+        "step 19: Click on div cesprEas202454286Nth2",
+        "step 20: Click on span close",
+        "step 21: Click on button seePaymentInformation",
+        "step 22: Click on span close",
+        "step 23: Click on div serviceRequestPostsContactsHelderFigueiredo",
+        "step 24: Click on button seePaymentInformation -> Navigate to page '/admin/edit-application/CESPR EAS202454286'",
+        "step 25: Click on div serviceRequestPostsContactsHelderFigueiredo -> Navigate to page ''",
+        "step 26: Take full page screenshot as checkpoint"
+    ]
+}

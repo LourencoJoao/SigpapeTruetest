@@ -1,0 +1,13 @@
+{
+    "steps": [
+        "step 1: Navigate to auth/home",
+        "step 2: Click on button welcomeSignIn",
+        "step 3: Login -> Navigate to page 'admin/home'",
+        "step 4: Click on link serviceRequest -> Navigate to page 'admin/application-create'",
+        "step 5: Click on item option1",
+        "step 6: Select program options and proceed to next steps",
+        "step 7: Click on button subscribe",
+        "step 8: Click on button subscribe -> Navigate to page ''",
+        "step 9: Take full page screenshot as checkpoint"
+    ]
+}

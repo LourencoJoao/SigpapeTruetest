@@ -1,0 +1,15 @@
+{
+    "steps": [
+        "step 1: Navigate to auth/home",
+        "step 2: Click on button welcomeSignIn",
+        "step 3: Login -> Navigate to page 'admin/home'",
+        "step 4: Click on link serviceRequest",
+        "step 5: Select program options and proceed to next steps",
+        "step 6: Click on item mui8369Option0",
+        "step 7: Click on link serviceRequest",
+        "step 8: Click on button leave -> Navigate to page 'admin/home'",
+        "step 9: Click on link serviceRequest",
+        "step 10: Select program options and proceed to next steps",
+        "step 11: Take full page screenshot as checkpoint"
+    ]
+}

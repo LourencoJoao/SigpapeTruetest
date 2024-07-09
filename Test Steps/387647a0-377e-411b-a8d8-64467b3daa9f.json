@@ -1,0 +1,9 @@
+{
+    "steps": [
+        "step 1: Navigate to auth/home",
+        "step 2: Click on button welcomeSignIn",
+        "step 3: Login",
+        "step 4: Select program and sub-program options, input details, and proceed",
+        "step 5: Take full page screenshot as checkpoint"
+    ]
+}
