@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Login",
+        "step 2: Navigate to admin/*",
+        "step 3: Select a service, subscribe, and proceed to the next steps",
+        "step 4: Click on item option -> Navigate to page 'auth/*'",
+        "step 5: Click on button login -> Navigate to page ''",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}

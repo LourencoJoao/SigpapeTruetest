@@ -1,391 +1,110 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Contact Form Submission in Admin Home,"Login, navigate to admin home, fill and send contact form, then verify returning to the home page.","Step 1: Navigate to auth/home
+1,Verify Successful Contact Form Submission,"Navigate to authentication page, sign in, access admin page, click on contacts link, fill in contact details, send message, and verify return to home page.","Step 1: Navigate to auth/*
 Step 2: Click on button welcomeSignIn
-Step 3: Login
-Step 4: Fill contact form and send message
-	- Step 1: Click on link contacts -> Navigate to page 'admin/contacts'
-	- Step 2: Enter input value in input email
-	- Step 3: Enter input value in input name
-	- Step 4: Enter input value in input phone
-	- Step 5: Enter input value in input surname
-	- Step 6: Enter input value in textarea enterYourMessage
-	- Step 7: Click on button send
-Step 5: Click on span close -> Navigate to page ''
-Step 6: Take full page screenshot as checkpoint
+Step 3: Login -> Navigate to page 'admin/*'
+Step 4: Click on link contacts
+Step 5: Enter input value in input email
+Step 6: Enter input value in input name
+Step 7: Enter input value in input phone
+Step 8: Enter input value in input surname
+Step 9: Enter input value in textarea enterYourMessage
+Step 10: Click on button send
+Step 11: Click on span close -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
 ",High
-6,Verify Application Creation Process in Admin Home,"Login to admin home, create an application, select options, and complete the process successfully.","Step 1: Navigate to auth/home
+2,Verify Service Request Subscription,"Navigate to authentication page, sign in, access admin page, select service, subscribe, proceed, confirm subscription, and verify return to home page.","Step 1: Navigate to auth/*
 Step 2: Click on button welcomeSignIn
-Step 3: Login
-Step 4: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 5: Click on button ok -> Navigate to page ''
-Step 6: Take full page screenshot as checkpoint
-",High
-7,Verify Multiple Service Requests and Notifications Handling,"Login to admin home, handle multiple service requests, notifications, and verify interactions and notifications.","Step 1: Navigate to auth/home
-Step 2: Click on button login
-Step 3: Click on button welcomeSignIn
-Step 4: Login -> Navigate to page 'admin/home'
-Step 5: Click on link serviceRequest
-Step 6: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 7: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 8: Click on link serviceRequest
-Step 9: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 10: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 11: Click on link adminHome -> Navigate to page 'auth/home'
-Step 12: Click on button login
-Step 13: Click on span bannerButton
-Step 14: Login -> Navigate to page 'admin/home'
-Step 15: Click on button notificationsDropdownIconButton
-Step 16: Click on button seeAll -> Navigate to page 'admin/notifications'
-Step 17: Click on button notificationsDropdownIconButton
-Step 18: Click on list object
-Step 19: Click on button seeAll
-Step 20: Click on input formSelectOriginLabel
-Step 21: Click on div formSvg
-Step 22: Click on input search -> Navigate to page ''
-Step 23: Take full page screenshot as checkpoint
-",High
-8,Verify Sign In Redirects to Home Page,"Login from the authentication home page, sign in, and verify redirection to the home page.","Step 1: Navigate to auth/home
-Step 2: Click on button signIn
-Step 3: Login -> Navigate to page ''
-Step 4: Take full page screenshot as checkpoint
-",High
-5,Verify Successful Sign In Redirects to Home Page,"Login from the authentication home page, click sign-in, and verify redirection to the home page.","Step 1: Navigate to auth/home
-Step 2: Click on span bannerButton
-Step 3: Login -> Navigate to page ''
-Step 4: Take full page screenshot as checkpoint
-",High
-2,Verify Service Request Creation in Admin Home,"Login to admin home, create a service request, select options, and verify completion.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
+Step 3: Login -> Navigate to page 'admin/*'
 Step 4: Click on link serviceRequest
-Step 5: Select service and sub-service options
+Step 5: Select a service, subscribe, and proceed to the next steps
 	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
+	- Step 2: Click on item option
 	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
+	- Step 4: Click on item option
 	- Step 5: Click on button next
 	- Step 6: Click on button next
-	- Step 7: Click on button next
+	- Step 7: Click on button subscribe
+	- Step 8: Click on button next
 Step 6: Click on button ok -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
-",High
-12,Verify Contact Form Submission and Navigation in Admin Home,"Login, navigate to admin home, send contact form, close it, navigate back, and verify the home page.","Step 1: Navigate to auth/home
-Step 2: Click on button login
-Step 3: Click on button welcomeSignIn
-Step 4: Login -> Navigate to page 'admin/home'
-Step 5: Click on button seeAllRequests
-Step 6: Fill contact form and send message
-	- Step 1: Click on link contacts -> Navigate to page 'admin/contacts'
-	- Step 2: Enter input value in input email
-	- Step 3: Enter input value in input name
-	- Step 4: Enter input value in input phone
-	- Step 5: Enter input value in input surname
-	- Step 6: Enter input value in textarea enterYourMessage
-	- Step 7: Click on button send
-Step 7: Click on span close
-Step 8: Click on link adminHome -> Navigate to page 'admin/home'
-Step 9: Click on link contacts -> Navigate to page ''
-Step 10: Take full page screenshot as checkpoint
 ",Medium
-11,Verify Service Request Creation Redirects to Home Page,"Login to admin home, create a service request, select options, and verify redirection to the home page.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on link serviceRequest
-Step 5: Select service and sub-service options
+3,Verify Service Selection and Subscription,"Login to admin page, select service, subscribe, proceed, return to authentication page, login, and verify return to home page.","Step 1: Login
+Step 2: Navigate to admin/*
+Step 3: Select a service, subscribe, and proceed to the next steps
 	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
+	- Step 2: Click on item option
 	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
+	- Step 4: Click on item option
 	- Step 5: Click on button next
 	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 6: Click on span button -> Navigate to page ''
-Step 7: Take full page screenshot as checkpoint
+	- Step 7: Click on button subscribe
+	- Step 8: Click on button next
+Step 4: Click on item option -> Navigate to page 'auth/*'
+Step 5: Click on button login -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
 ",Low
-17,Verify Service and Sub Service Selection in Application Creation,"Login to admin application creation, select service and sub-service options, proceed through steps, and verify completion.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/application-create'
-Step 4: Click on input selectAservice
-Step 5: Click on item option1
-Step 6: Click on input selectAsubservice
-Step 7: Click on item mui74876Option0
-Step 8: Click on button next
-Step 9: Click on button next
-Step 10: Click on button subscribe
-Step 11: Click on div goBackSubmit
-Step 12: Click on button next -> Navigate to page ''
-Step 13: Take full page screenshot as checkpoint
-",Low
-16,Verify Service and Sub Service Selection in Application Creation,"Login to admin application creation, select service and sub-service options, and verify the completion.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on link serviceRequest -> Navigate to page 'admin/application-create'
-Step 5: Click on div saveYourRequest1Service
-Step 6: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 7: Take full page screenshot as checkpoint
-",Low
-14,Verify Service Request Handling and Navigation in Admin Home,"Login to admin home, handle service requests, navigate through different pages, and verify interactions.","Step 1: Navigate to auth/home
-Step 2: Click on button login
-Step 3: Click on button welcomeSignIn
-Step 4: Login -> Navigate to page 'admin/home'
-Step 5: Click on link serviceRequest
-Step 6: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 7: Click on item mui74876Option0
-Step 8: Click on html object
-Step 9: Click on link serviceRequest
-Step 10: Click on link adminHome -> Navigate to page 'admin/home'
-Step 11: Click on link serviceRequest -> Navigate to page 'admin/application-create'
-Step 12: Click on div formDivNthChild4 -> Navigate to page 'auth/home'
-Step 13: Click on button login -> Navigate to page ''
-Step 14: Take full page screenshot as checkpoint
-",Low
-9,Verify Service Request Creation and Leaving Process,"Login to admin home, create a service request, select options, leave, and verify returning to the home page.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on link serviceRequest
-Step 5: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 6: Click on item mui8369Option0
+4,Verify Multiple Admin Operations,"Perform various admin actions like selecting services, subscribing, navigating between pages, and verifying successful operations leading back to the home page.","Step 1: Navigate to admin/*
+Step 2: Click on link adminHome -> Navigate to page 'auth/*'
+Step 3: Click on button login
+Step 4: Click on button welcomeSignIn
+Step 5: Login -> Navigate to page 'admin/*'
+Step 6: Click on link contacts
 Step 7: Click on link serviceRequest
-Step 8: Click on button leave -> Navigate to page 'admin/home'
-Step 9: Click on link serviceRequest
-Step 10: Select service and sub-service options
+Step 8: Select a service, subscribe, and proceed to the next steps
 	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
+	- Step 2: Click on item option
 	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
+	- Step 4: Click on item option
 	- Step 5: Click on button next
 	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 11: Take full page screenshot as checkpoint
-",Low
-10,Verify Service Request Handling and Navigation in Admin Home,"Login to admin home, handle service requests, navigate through different pages, and verify interactions.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on button seeMore
-Step 5: Click on link serviceRequest
-Step 6: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 7: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 8: Click on link serviceRequest -> Navigate to page 'admin/application-create'
-Step 9: Click on link serviceRequest
-Step 10: Click on link adminHome -> Navigate to page 'admin/home'
-Step 11: Click on link serviceRequest -> Navigate to page 'admin/application-create'
-Step 12: Click on link serviceRequest
-Step 13: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 14: Take full page screenshot as checkpoint
-",Low
-4,Verify Subscription Process in Admin Home,"Login to admin home, create a service request, subscribe, and verify successful subscription.","Step 1: Navigate to auth/home
-Step 2: Click on div welcomeToOneStop
-Step 3: Click on button welcomeSignIn
-Step 4: Login -> Navigate to page 'admin/home'
-Step 5: Click on link serviceRequest
-Step 6: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 7: Click on button subscribe -> Navigate to page ''
-Step 8: Take full page screenshot as checkpoint
-",Low
-3,Verify Complex Service Request Creation Process,"Login to admin home, create multiple service requests, handle interactions, and verify completion.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on link serviceRequest
-Step 5: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 6: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 7: Click on link serviceRequest
-Step 8: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 9: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+	- Step 7: Click on button subscribe
+	- Step 8: Click on button next
+Step 9: Click on button ok -> Navigate to page 'admin/my-applications/*'
 Step 10: Click on link serviceRequest
-Step 11: Select service and sub-service options
+Step 11: Select a service, subscribe, and proceed to the next steps
 	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
+	- Step 2: Click on item option
 	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
+	- Step 4: Click on item option
 	- Step 5: Click on button next
 	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 12: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 13: Click on link serviceRequest
-Step 14: Select service and sub-service options
+	- Step 7: Click on button subscribe
+	- Step 8: Click on button next
+Step 12: Click on link adminHome
+Step 13: Click on button leave -> Navigate to page 'auth/*'
+Step 14: Click on div expiredSessionPleaseTry
+Step 15: Click on button close
+Step 16: Click on span bannerButton
+Step 17: Login -> Navigate to page 'admin/*'
+Step 18: Click on link contacts
+Step 19: Click on link serviceRequest
+Step 20: Select a service, subscribe, and proceed to the next steps
 	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
+	- Step 2: Click on item option
 	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
+	- Step 4: Click on item option
 	- Step 5: Click on button next
 	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 15: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 16: Click on th requestNo
-Step 17: Click on link serviceRequest -> Navigate to page 'admin/application-create'
-Step 18: Click on link serviceRequest
-Step 19: Select service and sub-service options
+	- Step 7: Click on button subscribe
+	- Step 8: Click on button next
+Step 21: Click on button ok -> Navigate to page 'admin/my-applications/*'
+Step 22: Click on div muiGridRoot
+Step 23: Click on link serviceRequest -> Navigate to page 'admin/*'
+Step 24: Click on div serviceRequest
+Step 25: Click on link contacts
+Step 26: Click on link adminHome
+Step 27: Click on div welcomeToOneStop
+Step 28: Click on link contacts
+Step 29: Click on item posts
+Step 30: Click on link serviceRequest
+Step 31: Select a service, subscribe, and proceed to the next steps
 	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
+	- Step 2: Click on item option
 	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
+	- Step 4: Click on item option
 	- Step 5: Click on button next
 	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 20: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 21: Click on link serviceRequest
-Step 22: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 23: Click on button ok -> Navigate to page ''
-Step 24: Take full page screenshot as checkpoint
+	- Step 7: Click on button subscribe
+	- Step 8: Click on button next
+Step 32: Take full page screenshot as checkpoint
 ",Low
-13,Verify Service Request Handling and Navigation in Admin Home,"Login to admin home, handle service requests, navigate through different pages, and verify interactions.","Step 1: Login
-Step 2: Navigate to admin/application-create
-Step 3: Click on button userDropdownButton
-Step 4: Click on span myRequests -> Navigate to page '/admin/my-applications'
-Step 5: Click on button genericButtonUndefined
-Step 6: Click on link serviceRequest
-Step 7: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 8: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 9: Click on button seeDetails
-Step 10: Click on div cesprEas202454286Nth2
-Step 11: Click on span close
-Step 12: Click on button seePaymentInformation
-Step 13: Click on span close
-Step 14: Click on div serviceRequestPostsContactsHelderFigueiredo
-Step 15: Click on button seePaymentInformation -> Navigate to page '/admin/edit-application/CESPR EAS202454286'
-Step 16: Click on div serviceRequestPostsContactsHelderFigueiredo -> Navigate to page ''
-Step 17: Take full page screenshot as checkpoint
-",Trivial
-15,Verify Schedule Access and Search in Admin Home,"Login to admin home, access schedule, perform search, and verify navigation and search functionality.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on div bannerRoleListitemSvg
-Step 5: Click on link schedule -> Navigate to page 'admin/informationDissemination/schedule'
-Step 6: Click on input search
-Step 7: Enter input value in input search
-Step 8: Click on div clearFiltersSearch
-Step 9: Click on input selectAn
-Step 10: Click on span open
-Step 11: Click on button open
-Step 12: Click on item mui31940Option0
-Step 13: Click on button search
-Step 14: Click on link serviceRequest
-Step 15: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 16: Click on link serviceRequest
-Step 17: Click on button leave -> Navigate to page 'admin/home'
-Step 18: Click on link serviceRequest
-Step 19: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 20: Click on item mui74876Option0 -> Navigate to page 'admin/home'
-Step 21: Click on link serviceRequest
-Step 22: Select service and sub-service options
-	- Step 1: Click on input selectAservice
-	- Step 2: Click on item option1
-	- Step 3: Click on input selectAsubservice
-	- Step 4: Click on item mui74876Option0
-	- Step 5: Click on button next
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-Step 23: Click on item mui74876Option0 -> Navigate to page ''
-Step 24: Take full page screenshot as checkpoint
-",Trivial
-18,Verify My Documents Access in Admin Home,"Login to admin home, access my documents, and verify successful navigation.","Step 1: Navigate to auth/home
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/home'
-Step 4: Click on button myDocuments -> Navigate to page ''
-Step 5: Take full page screenshot as checkpoint
-",Trivial
