@@ -1,9 +1,9 @@
-import internal.GlobalVariable
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.configuration.RunConfiguration
-import katalon.common.enterContactDetailsAndSendMessage
-import katalon.truetest.TrueTestScripts
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import katalon.truetest.TrueTestScripts
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import katalon.common.fillContactDetailsAndSendMessage
+import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -31,9 +31,9 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 2: Click on button welcomeSignI
 
 TrueTestScripts.login()
 
-"Step 4: Enter contact details and send a message"
+"Step 4: Fill in contact details and send a message"
 
-enterContactDetailsAndSendMessage.execute(data_path_0, Integer.valueOf(index_0))
+fillContactDetailsAndSendMessage.execute(data_path_0, Integer.valueOf(index_0))
 
 "Step 5: Click on span close -> Navigate to page ''"
 

@@ -3,16 +3,16 @@ package katalon.common
 import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-public class enterContactDetailsAndSendMessage {
+public class fillContactDetailsAndSendMessage {
     
     private static def execute_functional_method(Map data) {
         
-        "Step 1: Click on link contacts -> Navigate to page 'admin/contacts'"
+        "Step 1: Click on link adminContacts -> Navigate to page 'admin/contacts'"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_home/link_contacts'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_home/link_adminContacts'))
         
         "Step 2: Enter input value in input email"
         

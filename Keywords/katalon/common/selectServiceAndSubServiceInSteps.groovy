@@ -3,11 +3,11 @@ package katalon.common
 import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import internal.GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-public class selectServiceAndSubserviceOptions {
+public class selectServiceAndSubServiceInSteps {
     
     private static def execute_functional_method(Map data) {
         
