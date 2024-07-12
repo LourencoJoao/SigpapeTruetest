@@ -1,9 +1,9 @@
+import internal.GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import katalon.truetest.TrueTestScripts
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import katalon.common.fillContactDetailsAndSendMessage
-import internal.GlobalVariable
+import katalon.common.fillContactFormAndSendMessage
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -31,21 +31,29 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 2: Click on button welcomeSignI
 
 TrueTestScripts.login()
 
-"Step 4: Fill in contact details and send a message"
+"Step 4: Click on link contacts"
 
-fillContactDetailsAndSendMessage.execute(data_path_0, Integer.valueOf(index_0))
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/admin/home?/?(?:#.*)?(?:\\?.*)?$', true)
 
-"Step 5: Click on span close -> Navigate to page ''"
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_home/link_contacts'))
+
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 4: Click on link contacts.png')
+
+"Step 5: Fill contact form and send message"
+
+fillContactFormAndSendMessage.execute(data_path_0, Integer.valueOf(index_0))
+
+"Step 6: Click on span close -> Navigate to page ''"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/admin/contacts?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_contacts/span_close'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 5: Click on span close - Navigate to page .png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 6: Click on span close - Navigate to page .png')
 
-"Step 6: Take full page screenshot as checkpoint"
+"Step 7: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Contact Message Sent from Admin Home_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Contact Form Submission in Admin Contacts Section_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

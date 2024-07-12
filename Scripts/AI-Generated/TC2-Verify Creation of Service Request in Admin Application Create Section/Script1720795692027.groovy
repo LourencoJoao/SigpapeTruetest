@@ -1,9 +1,9 @@
-import com.kms.katalon.core.configuration.RunConfiguration
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import katalon.truetest.TrueTestScripts
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import katalon.common.selectServiceAndSubServiceInSteps
+import katalon.truetest.TrueTestScripts
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -39,7 +39,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_home/link_serviceReq
 
 WebUI.takeScreenshot(reportLocation + '/TC2/Step 4: Click on link serviceRequest.png')
 
-"Step 5: Select a service and sub-service in multiple steps"
+"Step 5: Select service and sub-service in multiple steps"
 
 selectServiceAndSubServiceInSteps.execute()
 
@@ -53,7 +53,7 @@ WebUI.takeScreenshot(reportLocation + '/TC2/Step 6: Click on button ok - Navigat
 
 "Step 7: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Multiple Steps Service Selection in Admin Application Creation_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Creation of Service Request in Admin Application Create Section_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

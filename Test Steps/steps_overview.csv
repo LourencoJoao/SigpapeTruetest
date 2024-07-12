@@ -1,23 +1,23 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Contact Message Sent from Admin Home,"Login, access admin home, fill in contact details, send a message, and verify return to home page.","Step 1: Navigate to auth/home
+1,Verify Contact Form Submission in Admin Contacts Section,Login and navigate to the admin contacts section. Fill out the contact form and send a message. Verify the form submission and return to the home page.,"Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
-Step 3: Login
-Step 4: Fill in contact details and send a message
-	- Step 1: Click on link adminContacts -> Navigate to page 'admin/contacts'
-	- Step 2: Enter input value in input email
-	- Step 3: Enter input value in input name
-	- Step 4: Enter input value in input phone
-	- Step 5: Enter input value in input surname
-	- Step 6: Enter input value in textarea enterYourMessage
-	- Step 7: Click on button send
-Step 5: Click on span close -> Navigate to page ''
-Step 6: Take full page screenshot as checkpoint
+Step 3: Login -> Navigate to page 'admin/home'
+Step 4: Click on link contacts
+Step 5: Fill contact form and send message
+	- Step 1: Enter input value in input email
+	- Step 2: Enter input value in input name
+	- Step 3: Enter input value in input phone
+	- Step 4: Enter input value in input surname
+	- Step 5: Enter input value in textarea enterYourMessage
+	- Step 6: Click on button send
+Step 6: Click on span close -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
 ",High
-2,Multiple Steps Service Selection in Admin Application Creation,"Login, navigate to admin home, create an application, select service and sub-service in multiple steps, and verify completion.","Step 1: Navigate to auth/home
+2,Verify Creation of Service Request in Admin Application Create Section,"Login and navigate to service requests creation. Select a service and sub-service in multiple steps, complete the process, and verify the creation on the home page.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest
-Step 5: Select a service and sub-service in multiple steps
+Step 5: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -28,12 +28,12 @@ Step 5: Select a service and sub-service in multiple steps
 Step 6: Click on button ok -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",High
-6,Verify Subscription Process after Service Selection,"Login, navigate to admin home, create an application, select service and sub-service, subscribe, and verify return to home page.","Step 1: Navigate to auth/home
+6,Verify Subscription Process for Service Request in Admin Application Create,Login and navigate to service requests creation. Subscribe to a service request by selecting service and sub-service. Verify the subscription on the home page.,"Step 1: Navigate to auth/home
 Step 2: Click on div welcomeToOneStop
 Step 3: Click on button welcomeSignIn
 Step 4: Login -> Navigate to page 'admin/home'
 Step 5: Click on link serviceRequest
-Step 6: Select a service and sub-service in multiple steps
+Step 6: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -44,10 +44,10 @@ Step 6: Select a service and sub-service in multiple steps
 Step 7: Click on button subscribe -> Navigate to page ''
 Step 8: Take full page screenshot as checkpoint
 ",Medium
-9,Verify Application Creation with Multiple Service Selection,"Login, navigate to admin application creation, select service and sub-service in multiple steps, and verify completion.","Step 1: Navigate to auth/home
+9,Verify Service Request Creation Process in Admin Application Create,"Login and start the service request creation process. Select a service and sub-service in multiple steps, complete the process, and verify on the home page.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login
-Step 4: Select a service and sub-service in multiple steps
+Step 4: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -58,11 +58,11 @@ Step 4: Select a service and sub-service in multiple steps
 Step 5: Click on button ok -> Navigate to page ''
 Step 6: Take full page screenshot as checkpoint
 ",Low
-12,Login Navigation and Application Creation Flow,"Login, navigate through various steps, create an application, and verify return to home page.","Step 1: Navigate to auth/home
+12,Verify Login Contact Form Submission and Navigation in Admin Home,"Login, submit contact forms, and navigate through various sections. Perform actions like signing out and signing in. Verify navigation and actions on the home page.","Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest
-Step 5: Select a service and sub-service in multiple steps
+Step 5: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -73,7 +73,7 @@ Step 5: Select a service and sub-service in multiple steps
 Step 6: Click on span button -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",Trivial
-17,Subscription Process after Service and Sub Service Selection,"Login, navigate to admin home, create an application, select service and sub-service, subscribe, and verify return to home page.","Step 1: Navigate to auth/home
+17,Verify Subscription Process for Service Request Creation,Login and navigate to service request creation. Subscribe to a service request by selecting service and sub-service. Verify the subscription process and actions on the home page.,"Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/application-create'
 Step 4: Click on input selectAservice
@@ -87,7 +87,7 @@ Step 11: Click on div goBackSubmit
 Step 12: Click on button next -> Navigate to page ''
 Step 13: Take full page screenshot as checkpoint
 ",Trivial
-16,Service Selection and Schedule Navigation in Admin Dashboard,"Login, navigate through service selection, schedule navigation in admin dashboard, and verify return to home page.","Step 1: Navigate to auth/home
+16,Verify Schedule Access and Service Request Creation in Admin Information,Login and access schedules. Create service requests by selecting services and sub-services in multiple steps. Verify the creations and actions on the home page.,"Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on div bannerRoleListitemSvg
@@ -101,7 +101,7 @@ Step 11: Click on button open
 Step 12: Click on item mui31940Option0
 Step 13: Click on button search
 Step 14: Click on link serviceRequest
-Step 15: Select a service and sub-service in multiple steps
+Step 15: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -112,7 +112,7 @@ Step 15: Select a service and sub-service in multiple steps
 Step 16: Click on link serviceRequest
 Step 17: Click on button leave -> Navigate to page 'admin/home'
 Step 18: Click on link serviceRequest
-Step 19: Select a service and sub-service in multiple steps
+Step 19: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -122,7 +122,7 @@ Step 19: Select a service and sub-service in multiple steps
 	- Step 7: Click on button next
 Step 20: Click on item mui63355Option1 -> Navigate to page 'admin/home'
 Step 21: Click on link serviceRequest
-Step 22: Select a service and sub-service in multiple steps
+Step 22: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -133,12 +133,12 @@ Step 22: Select a service and sub-service in multiple steps
 Step 23: Click on item mui63355Option1 -> Navigate to page ''
 Step 24: Take full page screenshot as checkpoint
 ",Trivial
-15,Service and Sub Service Selection with HTML Object,"Login, navigate through service and sub-service selection, handle HTML objects, and verify return to home page.","Step 1: Navigate to auth/home
+15,Verify Specific Item Selection in Service Request Creation,Login and navigate to service request creation. Select a specific item in the process of choosing service and sub-service. Verify the selection on the home page.,"Step 1: Navigate to auth/home
 Step 2: Click on button login
 Step 3: Click on button welcomeSignIn
 Step 4: Login -> Navigate to page 'admin/home'
 Step 5: Click on link serviceRequest
-Step 6: Select a service and sub-service in multiple steps
+Step 6: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -156,7 +156,7 @@ Step 13: Click on button login
 Step 14: Click on button welcomeSignIn
 Step 15: Login -> Navigate to page 'admin/home'
 Step 16: Click on link serviceRequest
-Step 17: Select a service and sub-service in multiple steps
+Step 17: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -167,12 +167,12 @@ Step 17: Select a service and sub-service in multiple steps
 Step 18: Click on item mui63355Option1 -> Navigate to page ''
 Step 19: Take full page screenshot as checkpoint
 ",Trivial
-14,Service Selection and Login Process with Item Option,"Login, navigate to admin home, create an application, select service and sub-service with item option, and verify return to home page.","Step 1: Navigate to auth/home
+14,Verify Service Request Creation and Navigation in Admin Home,Login and create service requests. Select services and sub-services in multiple steps. Verify the creations and navigate to different sections on the home page.,"Step 1: Navigate to auth/home
 Step 2: Click on button login
 Step 3: Click on button welcomeSignIn
 Step 4: Login -> Navigate to page 'admin/home'
 Step 5: Click on link serviceRequest
-Step 6: Select a service and sub-service in multiple steps
+Step 6: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -182,7 +182,7 @@ Step 6: Select a service and sub-service in multiple steps
 	- Step 7: Click on button next
 Step 7: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
 Step 8: Click on link serviceRequest
-Step 9: Select a service and sub-service in multiple steps
+Step 9: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -205,29 +205,29 @@ Step 21: Click on div formSvg
 Step 22: Click on input search -> Navigate to page ''
 Step 23: Take full page screenshot as checkpoint
 ",Trivial
-13,Complex Login Navigation and Notification Flow,"Login, navigate through multiple steps, handle notifications, and verify return to home page.","Step 1: Navigate to auth/home
+13,Verify Notifications Handling and Navigation in Admin Notifications,"Login and navigate to notifications. Handle notifications, access different sections, and perform actions like searching and selecting items. Verify actions on the home page.","Step 1: Navigate to auth/home
 Step 2: Click on button login
 Step 3: Click on button welcomeSignIn
 Step 4: Login -> Navigate to page 'admin/home'
 Step 5: Click on button seeAllRequests
-Step 6: Fill in contact details and send a message
-	- Step 1: Click on link adminContacts -> Navigate to page 'admin/contacts'
-	- Step 2: Enter input value in input email
-	- Step 3: Enter input value in input name
-	- Step 4: Enter input value in input phone
-	- Step 5: Enter input value in input surname
-	- Step 6: Enter input value in textarea enterYourMessage
-	- Step 7: Click on button send
-Step 7: Click on span close
-Step 8: Click on link adminHome -> Navigate to page 'admin/home'
-Step 9: Click on link adminContacts -> Navigate to page 'admin/contacts'
-Step 10: Click on link adminHome -> Navigate to page 'auth/home'
-Step 11: Click on button login
-Step 12: Click on button welcomeSignIn
-Step 13: Login -> Navigate to page 'admin/home'
-Step 14: Click on link adminContacts -> Navigate to page 'admin/contacts'
-Step 15: Click on link adminApplicationCreate
-Step 16: Select a service and sub-service in multiple steps
+Step 6: Click on link contacts
+Step 7: Fill contact form and send message
+	- Step 1: Enter input value in input email
+	- Step 2: Enter input value in input name
+	- Step 3: Enter input value in input phone
+	- Step 4: Enter input value in input surname
+	- Step 5: Enter input value in textarea enterYourMessage
+	- Step 6: Click on button send
+Step 8: Click on span close
+Step 9: Click on link adminHome -> Navigate to page 'admin/home'
+Step 10: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 11: Click on link adminHome -> Navigate to page 'auth/home'
+Step 12: Click on button login
+Step 13: Click on button welcomeSignIn
+Step 14: Login -> Navigate to page 'admin/home'
+Step 15: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 16: Click on link adminApplicationCreate
+Step 17: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -235,9 +235,9 @@ Step 16: Select a service and sub-service in multiple steps
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
-Step 17: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 18: Click on link serviceRequest
-Step 19: Select a service and sub-service in multiple steps
+Step 18: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 19: Click on link serviceRequest
+Step 20: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -245,15 +245,15 @@ Step 19: Select a service and sub-service in multiple steps
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
-Step 20: Click on link adminHome
-Step 21: Click on button leave -> Navigate to page 'auth/home'
-Step 22: Click on div expiredSessionPleaseTry
-Step 23: Click on button close
-Step 24: Click on span bannerButton
-Step 25: Login -> Navigate to page 'admin/home'
-Step 26: Click on link adminContacts -> Navigate to page 'admin/contacts'
-Step 27: Click on link adminApplicationCreate
-Step 28: Select a service and sub-service in multiple steps
+Step 21: Click on link adminHome
+Step 22: Click on button leave -> Navigate to page 'auth/home'
+Step 23: Click on div expiredSessionPleaseTry
+Step 24: Click on button close
+Step 25: Click on span bannerButton
+Step 26: Login -> Navigate to page 'admin/home'
+Step 27: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 28: Click on link adminApplicationCreate
+Step 29: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -261,17 +261,17 @@ Step 28: Select a service and sub-service in multiple steps
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
-Step 29: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 30: Click on div muiGridRoot
-Step 31: Click on link serviceRequest -> Navigate to page 'admin/application-create'
-Step 32: Click on div serviceRequest
-Step 33: Click on link contacts -> Navigate to page 'admin/contacts'
-Step 34: Click on link adminHome -> Navigate to page 'admin/home'
-Step 35: Click on div welcomeToOneStop
-Step 36: Click on link adminContacts -> Navigate to page 'admin/contacts'
-Step 37: Click on item posts
-Step 38: Click on link adminApplicationCreate
-Step 39: Select a service and sub-service in multiple steps
+Step 30: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 31: Click on div muiGridRoot
+Step 32: Click on link serviceRequest -> Navigate to page 'admin/application-create'
+Step 33: Click on div serviceRequest
+Step 34: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 35: Click on link adminHome -> Navigate to page 'admin/home'
+Step 36: Click on div welcomeToOneStop
+Step 37: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 38: Click on item posts
+Step 39: Click on link adminApplicationCreate
+Step 40: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -279,35 +279,35 @@ Step 39: Select a service and sub-service in multiple steps
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
-Step 40: Click on link serviceRequest
-Step 41: Click on button leave -> Navigate to page 'admin/home'
-Step 42: Click on div muiBackdrop
+Step 41: Click on link serviceRequest
+Step 42: Click on button leave -> Navigate to page 'admin/home'
 Step 43: Click on div muiBackdrop
 Step 44: Click on div muiBackdrop
 Step 45: Click on div muiBackdrop
-Step 46: Click on link adminHome
-Step 47: Click on button userDropdownButton
-Step 48: Click on span signOut -> Navigate to page 'auth/home'
-Step 49: Click on span bannerButton
-Step 50: Enter input value in input email
-Step 51: Click on div roleDialogDivHasTextSignInHereNoAccount -> Navigate to page ''
-Step 52: Take full page screenshot as checkpoint
+Step 46: Click on div muiBackdrop
+Step 47: Click on link adminHome
+Step 48: Click on button userDropdownButton
+Step 49: Click on span signOut -> Navigate to page 'auth/home'
+Step 50: Click on span bannerButton
+Step 51: Enter input value in input email
+Step 52: Click on div roleDialogDivHasTextSignInHereNoAccount -> Navigate to page ''
+Step 53: Take full page screenshot as checkpoint
 ",Trivial
-10,Contact Message Sent and Admin Application Flow,"Login, access admin home, fill in contact details, send a message, navigate admin application flow, and verify return to home page.","Step 1: Navigate to auth/home
+10,Verify Contact Form Submission in Admin Contacts and Application Create,"Login and navigate to contacts and application creation. Fill out contact forms, select services, and verify the submissions. Return to the home page and confirm.","Step 1: Navigate to auth/home
 Step 2: Click on span close
 Step 3: Click on button welcomeSignIn
-Step 4: Login
-Step 5: Fill in contact details and send a message
-	- Step 1: Click on link adminContacts -> Navigate to page 'admin/contacts'
-	- Step 2: Enter input value in input email
-	- Step 3: Enter input value in input name
-	- Step 4: Enter input value in input phone
-	- Step 5: Enter input value in input surname
-	- Step 6: Enter input value in textarea enterYourMessage
-	- Step 7: Click on button send
-Step 6: Click on span close
-Step 7: Click on link adminApplicationCreate
-Step 8: Select a service and sub-service in multiple steps
+Step 4: Login -> Navigate to page 'admin/home'
+Step 5: Click on link contacts
+Step 6: Fill contact form and send message
+	- Step 1: Enter input value in input email
+	- Step 2: Enter input value in input name
+	- Step 3: Enter input value in input phone
+	- Step 4: Enter input value in input surname
+	- Step 5: Enter input value in textarea enterYourMessage
+	- Step 6: Click on button send
+Step 7: Click on span close
+Step 8: Click on link adminApplicationCreate
+Step 9: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -315,12 +315,12 @@ Step 8: Select a service and sub-service in multiple steps
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
-Step 9: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 10: Click on div serviceRequestPostsContacts
-Step 11: Click on link adminHome -> Navigate to page 'admin/home'
-Step 12: Click on link adminContacts -> Navigate to page 'admin/contacts'
-Step 13: Click on link adminApplicationCreate
-Step 14: Select a service and sub-service in multiple steps
+Step 10: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 11: Click on div serviceRequestPostsContacts
+Step 12: Click on link adminHome -> Navigate to page 'admin/home'
+Step 13: Click on link contacts -> Navigate to page 'admin/contacts'
+Step 14: Click on link adminApplicationCreate
+Step 15: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -328,16 +328,43 @@ Step 14: Select a service and sub-service in multiple steps
 	- Step 5: Click on button next
 	- Step 6: Click on button next
 	- Step 7: Click on button next
-Step 15: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
-Step 16: Click on link adminContacts -> Navigate to page ''
-Step 17: Take full page screenshot as checkpoint
+Step 16: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 17: Click on link adminContacts -> Navigate to page 'admin/contacts'
+Step 18: Click on link adminHome -> Navigate to page 'admin/home'
+Step 19: Click on link contacts
+Step 20: Fill contact form and send message
+	- Step 1: Enter input value in input email
+	- Step 2: Enter input value in input name
+	- Step 3: Enter input value in input phone
+	- Step 4: Enter input value in input surname
+	- Step 5: Enter input value in textarea enterYourMessage
+	- Step 6: Click on button send
+Step 21: Click on link adminApplicationCreate
+Step 22: Select service and sub-service in multiple steps
+	- Step 1: Click on input selectAservice
+	- Step 2: Click on item mui63355Option1
+	- Step 3: Click on input selectAsubservice
+	- Step 4: Click on item mui63355Option1
+	- Step 5: Click on button next
+	- Step 6: Click on button next
+	- Step 7: Click on button next
+Step 23: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
+Step 24: Click on link adminContacts
+Step 25: Fill contact form and send message
+	- Step 1: Enter input value in input email
+	- Step 2: Enter input value in input name
+	- Step 3: Enter input value in input phone
+	- Step 4: Enter input value in input surname
+	- Step 5: Enter input value in textarea enterYourMessage
+	- Step 6: Click on button send
+Step 26: Take full page screenshot as checkpoint
 ",Trivial
-11,Verify Service Selection and Navigation in Admin Applications,"Login, navigate to admin home, create an application, select service and sub-service, and verify return to home page.","Step 1: Navigate to auth/home
+11,Verify Service Request Creation and Navigation in Admin Home,Login and navigate through service request creation. Select services and sub-services in multiple steps. Verify creations and navigate back to the home page.,"Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on button seeMore
 Step 5: Click on link serviceRequest
-Step 6: Select a service and sub-service in multiple steps
+Step 6: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -351,7 +378,7 @@ Step 9: Click on link serviceRequest
 Step 10: Click on link adminHome -> Navigate to page 'admin/home'
 Step 11: Click on link serviceRequest -> Navigate to page 'admin/application-create'
 Step 12: Click on link serviceRequest
-Step 13: Select a service and sub-service in multiple steps
+Step 13: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -361,11 +388,11 @@ Step 13: Select a service and sub-service in multiple steps
 	- Step 7: Click on button next
 Step 14: Take full page screenshot as checkpoint
 ",Trivial
-8,Service Selection and Login Process,"Login, navigate to admin home, create an application, select service and sub-service, and login to verify completion.","Step 1: Navigate to auth/home
+8,Verify Login and Service Request Creation in Admin Application,Login and navigate to service request creation. Select service and sub-service in multiple steps. Perform actions and verify on the home page.,"Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest
-Step 5: Select a service and sub-service in multiple steps
+Step 5: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -377,7 +404,7 @@ Step 6: Click on item mui63355Option1 -> Navigate to page 'auth/home'
 Step 7: Click on button login -> Navigate to page ''
 Step 8: Take full page screenshot as checkpoint
 ",Trivial
-7,User Registration and Navigation in Admin Dashboard,"Login, register as an individual user, navigate through admin dashboard, and verify return to home page.","Step 1: Login
+7,Verify User Registration and Navigation in Admin Home,"Login, register a new user, and navigate to admin home. Access various sections like complaints and requests. Verify navigation and actions on the home page.","Step 1: Login
 Step 2: Navigate to auth/home
 Step 3: Click on button signIn
 Step 4: Click on link registerHere -> Navigate to page 'auth/register'
@@ -390,7 +417,7 @@ Step 10: Click on button userDropdownButton
 Step 11: Click on span myRequests -> Navigate to page 'admin/my-applications'
 Step 12: Click on link adminHome -> Navigate to page 'admin/home'
 Step 13: Click on link serviceRequest
-Step 14: Select a service and sub-service in multiple steps
+Step 14: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -404,18 +431,18 @@ Step 17: Click on button leave -> Navigate to page 'admin/home'
 Step 18: Click on button seeMore -> Navigate to page ''
 Step 19: Take full page screenshot as checkpoint
 ",Trivial
-5,Verify Email Input and Page Navigation,"Login, navigate to home, input email, and verify return to home page.","Step 1: Login
+5,Verify Email Input and Navigation in Home Page,"Login and navigate to the home page. Click on a banner button, input an email address, and verify the home page.","Step 1: Login
 Step 2: Navigate to auth/home
 Step 3: Click on span bannerButton
 Step 4: Enter input value in input email -> Navigate to page ''
 Step 5: Take full page screenshot as checkpoint
 ",Trivial
-4,Service and Sub Service Selection with Item Option,"Login, navigate to admin home, create an application, select service and sub-service with item option, and verify completion.","Step 1: Navigate to auth/home
+4,Verify Specific Item Selection in Service Request Creation,Login and navigate to service request creation. Select a specific item in the process of choosing service and sub-service. Verify the selection on the home page.,"Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest -> Navigate to page 'admin/application-create'
 Step 5: Click on item mui63355Option1
-Step 6: Select a service and sub-service in multiple steps
+Step 6: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -426,11 +453,11 @@ Step 6: Select a service and sub-service in multiple steps
 Step 7: Click on button ok -> Navigate to page ''
 Step 8: Take full page screenshot as checkpoint
 ",Trivial
-3,Verify Complex Service Selection Flow in Admin Applications,"Login, navigate through multiple service selections, and verify completion in admin applications.","Step 1: Navigate to auth/home
+3,Verify Multiple Service Request Creation in Admin Application Create,Login and create multiple service requests. Select service and sub-service in multiple steps for each request. Verify the creation process on the home page.,"Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on link serviceRequest
-Step 5: Select a service and sub-service in multiple steps
+Step 5: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -440,7 +467,7 @@ Step 5: Select a service and sub-service in multiple steps
 	- Step 7: Click on button next
 Step 6: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
 Step 7: Click on link serviceRequest
-Step 8: Select a service and sub-service in multiple steps
+Step 8: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -450,7 +477,7 @@ Step 8: Select a service and sub-service in multiple steps
 	- Step 7: Click on button next
 Step 9: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
 Step 10: Click on link serviceRequest
-Step 11: Select a service and sub-service in multiple steps
+Step 11: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -460,7 +487,7 @@ Step 11: Select a service and sub-service in multiple steps
 	- Step 7: Click on button next
 Step 12: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
 Step 13: Click on link serviceRequest
-Step 14: Select a service and sub-service in multiple steps
+Step 14: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -472,7 +499,7 @@ Step 15: Click on button ok -> Navigate to page '/admin/my-applications/governme
 Step 16: Click on th requestNo
 Step 17: Click on link serviceRequest -> Navigate to page 'admin/application-create'
 Step 18: Click on link serviceRequest
-Step 19: Select a service and sub-service in multiple steps
+Step 19: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -482,7 +509,7 @@ Step 19: Select a service and sub-service in multiple steps
 	- Step 7: Click on button next
 Step 20: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'
 Step 21: Click on link serviceRequest
-Step 22: Select a service and sub-service in multiple steps
+Step 22: Select service and sub-service in multiple steps
 	- Step 1: Click on input selectAservice
 	- Step 2: Click on item mui63355Option1
 	- Step 3: Click on input selectAsubservice
@@ -493,7 +520,7 @@ Step 22: Select a service and sub-service in multiple steps
 Step 23: Click on button ok -> Navigate to page ''
 Step 24: Take full page screenshot as checkpoint
 ",Trivial
-18,Verify MyDocuments Page Access from Admin Home,"Login, navigate to admin home, access MyDocuments page, and verify return to home page.","Step 1: Navigate to auth/home
+18,Verify Access to My Documents Section in Admin Home,Login and navigate to the 'My Documents' section in the admin home. Verify access and actions on the home page.,"Step 1: Navigate to auth/home
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/home'
 Step 4: Click on button myDocuments -> Navigate to page ''
