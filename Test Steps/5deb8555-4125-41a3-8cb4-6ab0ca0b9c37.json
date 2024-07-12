@@ -1,0 +1,23 @@
+{
+    "steps": [
+        "step 1: Navigate to auth/home",
+        "step 2: Click on button login",
+        "step 3: Click on button welcomeSignIn",
+        "step 4: Login -> Navigate to page 'admin/home'",
+        "step 5: Click on link serviceRequest",
+        "step 6: Select service and subservice",
+        "step 7: Click on item mui63355Option1",
+        "step 8: Click on html object",
+        "step 9: Click on link serviceRequest",
+        "step 10: Click on link adminHome -> Navigate to page 'admin/home'",
+        "step 11: Click on link serviceRequest -> Navigate to page 'admin/application-create'",
+        "step 12: Click on div formDivNthChild4 -> Navigate to page 'auth/home'",
+        "step 13: Click on button login",
+        "step 14: Click on button welcomeSignIn",
+        "step 15: Login -> Navigate to page 'admin/home'",
+        "step 16: Click on link serviceRequest",
+        "step 17: Select service and subservice",
+        "step 18: Click on item mui63355Option1 -> Navigate to page ''",
+        "step 19: Take full page screenshot as checkpoint"
+    ]
+}
