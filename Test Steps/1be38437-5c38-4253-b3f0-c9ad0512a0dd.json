@@ -1,0 +1,27 @@
+{
+    "steps": [
+        "step 1: Navigate to auth/home",
+        "step 2: Click on button login",
+        "step 3: Click on button welcomeSignIn",
+        "step 4: Login -> Navigate to page 'admin/home'",
+        "step 5: Click on link serviceRequest",
+        "step 6: Select service and sub-service options",
+        "step 7: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'",
+        "step 8: Click on link serviceRequest",
+        "step 9: Select service and sub-service options",
+        "step 10: Click on button ok -> Navigate to page '/admin/my-applications/government-program-application'",
+        "step 11: Click on link adminHome -> Navigate to page 'auth/home'",
+        "step 12: Click on button login",
+        "step 13: Click on span bannerButton",
+        "step 14: Login -> Navigate to page 'admin/home'",
+        "step 15: Click on button notificationsDropdownIconButton",
+        "step 16: Click on button seeAll -> Navigate to page 'admin/notifications'",
+        "step 17: Click on button notificationsDropdownIconButton",
+        "step 18: Click on list object",
+        "step 19: Click on button seeAll",
+        "step 20: Click on input formSelectOriginLabel",
+        "step 21: Click on div formSvg",
+        "step 22: Click on input search -> Navigate to page ''",
+        "step 23: Take full page screenshot as checkpoint"
+    ]
+}

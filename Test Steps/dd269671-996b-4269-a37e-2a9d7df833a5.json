@@ -1,0 +1,17 @@
+{
+    "steps": [
+        "step 1: Navigate to auth/home",
+        "step 2: Click on button welcomeSignIn",
+        "step 3: Login -> Navigate to page 'admin/application-create'",
+        "step 4: Click on input selectAservice",
+        "step 5: Click on item mui63355Option1",
+        "step 6: Click on input selectAsubservice",
+        "step 7: Click on item mui63355Option1",
+        "step 8: Click on button next",
+        "step 9: Click on button next",
+        "step 10: Click on button subscribe",
+        "step 11: Click on div goBackSubmit",
+        "step 12: Click on button next -> Navigate to page ''",
+        "step 13: Take full page screenshot as checkpoint"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "steps": [
+        "step 1: Navigate to auth/home",
+        "step 2: Click on button welcomeSignIn",
+        "step 3: Login -> Navigate to page 'admin/home'",
+        "step 4: Click on div bannerRoleListitemSvg",
+        "step 5: Click on link schedule -> Navigate to page 'admin/informationDissemination/schedule'",
+        "step 6: Click on input search",
+        "step 7: Enter input value in input search",
+        "step 8: Click on div clearFiltersSearch",
+        "step 9: Click on input selectAn",
+        "step 10: Click on span open",
+        "step 11: Click on button open",
+        "step 12: Click on item mui31940Option0",
+        "step 13: Click on button search",
+        "step 14: Click on link serviceRequest",
+        "step 15: Select service and subservice",
+        "step 16: Click on link serviceRequest",
+        "step 17: Click on button leave -> Navigate to page 'admin/home'",
+        "step 18: Click on link serviceRequest",
+        "step 19: Select service and subservice",
+        "step 20: Click on item mui63355Option1 -> Navigate to page 'admin/home'",
+        "step 21: Click on link serviceRequest",
+        "step 22: Select service and subservice",
+        "step 23: Click on item mui63355Option1 -> Navigate to page ''",
+        "step 24: Take full page screenshot as checkpoint"
+    ]
+}
