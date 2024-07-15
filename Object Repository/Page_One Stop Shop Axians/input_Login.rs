@@ -3,7 +3,8 @@
    <description></description>
    <name>input_Login</name>
    <tag></tag>
-   <elementGuidId>87b42f17-b096-4cc9-8f8d-1e021367325d</elementGuidId>
+   <elementGuidId>17d15fe5-5179-4b13-8c41-ca7eb34be529</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -14,8 +15,8 @@
          <value>(//input[@value=''])[2]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@placeholder = 'Enter phone number or email' and @type = 'email']</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +34,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>071d1a34-8f30-4b14-b906-78d3232f4199</webElementGuid>
+      <webElementGuid>ffabb8bc-a334-49c7-a6eb-ddd10e9ba97b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +42,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a68d30d8-3136-4c47-a705-59363b545fc1</webElementGuid>
+      <webElementGuid>25f298ed-4de8-4867-84a0-db5805227924</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +50,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>5cc73d81-3fae-4f62-960f-76e354e0c142</webElementGuid>
+      <webElementGuid>cbc417e7-4573-45f4-93fa-93ce9c8f69c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +58,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Enter phone number or email</value>
-      <webElementGuid>8d7a9acd-c3c2-495a-961f-ed65a5641f68</webElementGuid>
+      <webElementGuid>2c507f9c-5403-446c-ae6f-43a8503b6735</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +66,7 @@
       <name>type</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>7312ac91-531b-481a-b8f1-ac70f47d99e6</webElementGuid>
+      <webElementGuid>5e733baf-372b-42b3-8d58-fde1c12df15f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,15 +74,15 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd</value>
-      <webElementGuid>ba13ab55-9d2a-4125-a67e-90382413a3b9</webElementGuid>
+      <webElementGuid>09b70a6f-3078-4c56-ac79-04d52646e016</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;jss1&quot;]/div[@class=&quot;MuiDialog-root&quot;]/div[@class=&quot;MuiDialog-container MuiDialog-scrollPaper&quot;]/div[@class=&quot;MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthXl MuiPaper-elevation24 MuiPaper-rounded&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-xl-6&quot;]/div[@class=&quot;MuiCardContent-root&quot;]/form[1]/div[@class=&quot;MuiBox-root jss9449 MuiFormControl-root jss94&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root emailInput Mui-focused Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd&quot;]/input[@class=&quot;MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd&quot;]</value>
-      <webElementGuid>0af2d55c-d959-4fb3-a880-f7c203ff668c</webElementGuid>
+      <value>/html[1]/body[@class=&quot;jss124&quot;]/div[@class=&quot;MuiDialog-root&quot;]/div[@class=&quot;MuiDialog-container MuiDialog-scrollPaper&quot;]/div[@class=&quot;MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthXl MuiPaper-elevation24 MuiPaper-rounded&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-xl-6&quot;]/div[@class=&quot;MuiCardContent-root&quot;]/form[1]/div[@class=&quot;MuiBox-root jss8587 MuiFormControl-root jss217&quot;]/div[@class=&quot;MuiInputBase-root MuiOutlinedInput-root emailInput Mui-focused Mui-focused MuiInputBase-formControl MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd&quot;]/input[@class=&quot;MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd&quot;]</value>
+      <webElementGuid>3e3a1dd8-0a6d-4aee-876f-5590cb4ea920</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,39 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value=''])[2]</value>
-      <webElementGuid>e0ef4504-28f9-4d88-9e57-ade6ad29355e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::input[1]</value>
-      <webElementGuid>d846473e-3a08-4833-a620-42a119c2b62d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register here'])[1]/following::input[1]</value>
-      <webElementGuid>d0f8b7a3-a090-4038-ae6b-e127358b21a4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[2]/preceding::input[1]</value>
-      <webElementGuid>1da9d9a6-e5f5-4184-aa36-ede57dead580</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::input[1]</value>
-      <webElementGuid>beb880e3-a404-43e4-93b8-d7fea8d70b73</webElementGuid>
+      <webElementGuid>96d238ec-d701-439c-8ce8-6152b083dcdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +98,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>de6ee5c0-a106-46ae-bb88-cf48316034a4</webElementGuid>
+      <webElementGuid>17df62aa-5009-4037-90c1-25bce493c8cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +106,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@placeholder = 'Enter phone number or email' and @type = 'email']</value>
-      <webElementGuid>1c7c27f7-ceab-40b4-8c0f-6e40da61989b</webElementGuid>
+      <webElementGuid>9d7b2d81-ec0b-44c0-bf32-29c6743b4164</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
