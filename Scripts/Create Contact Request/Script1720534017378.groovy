@@ -17,27 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('request service/a_Service Request'))
+WebUI.click(findTestObject('Page_One Stop Shop Axians/a_Contacts'))
 
-WebUI.click(findTestObject('request service/div_Select a Service'))
-
-WebUI.click(findTestObject('request service/li_Business Administration'))
-
-WebUI.click(findTestObject('request service/input_Select a Subservice_mui-801'))
-
-WebUI.click(findTestObject('request service/li_Annual return  annual statement for a company'))
-
-WebUI.click(findTestObject('request service/button_Next'))
+WebUI.setText(findTestObject('Page_One Stop Shop Axians/2nd test/input_Name_name (1)'), 'Teste')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('request service/button_Next'))
+WebUI.setText(findTestObject('Page_One Stop Shop Axians/2nd test/input_Surname_surname (1)'), 'KatalonManual')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('request service/button_Submit'))
+WebUI.setText(findTestObject('Page_One Stop Shop Axians/2nd test/input_Phone Number_phone (1)'), '910000000')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('request service/button_OK'))
+WebUI.setText(findTestObject('Page_One Stop Shop Axians/2nd test/input_Email_email (1)'), 'teste@teste.pt')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Page_One Stop Shop Axians/textarea_Message_message'), 'This is a warning test')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_One Stop Shop Axians/2nd test/button_Send'))
+
+WebUI.delay(1)
 

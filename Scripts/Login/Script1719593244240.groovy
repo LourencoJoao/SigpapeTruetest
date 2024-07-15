@@ -23,9 +23,11 @@ WebUI.navigateToUrl('https://sigpape-dev.northeurope.cloudapp.azure.com:460/auth
 
 WebUI.click(findTestObject('Page_One Stop Shop Axians/button_WelcomeSign In'))
 
-WebUI.setText(findTestObject('Page_One Stop Shop Axians/input_Login'), '456123789')
+WebUI.setText(findTestObject('Page_One Stop Shop Axians/input_Login'), 
+    '456123789')
 
-WebUI.setEncryptedText(findTestObject('Page_One Stop Shop Axians/input_Password'), 'A7HVxcY/1A5ahCQidKtScQ==')
+WebUI.setEncryptedText(findTestObject('Page_One Stop Shop Axians/input_Password'), 
+    'A7HVxcY/1A5ahCQidKtScQ==')
 
 WebUI.click(findTestObject('Page_One Stop Shop Axians/button_Sign In'))
 
