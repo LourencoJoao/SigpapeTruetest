@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to auth/*",
+        "step 2: Click on button welcomeSignIn",
+        "step 3: Login -> Navigate to page 'admin/*'",
+        "step 4: Click on link contacts",
+        "step 5: Fill contact form and send message",
+        "step 6: Click on span close -> Navigate to page ''",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}
