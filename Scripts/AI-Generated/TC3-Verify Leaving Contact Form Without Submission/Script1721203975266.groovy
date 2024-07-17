@@ -1,9 +1,9 @@
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 import katalon.truetest.TrueTestScripts
-import katalon.common.fillContactFormAndSendMessage
-import com.kms.katalon.core.configuration.RunConfiguration
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.configuration.RunConfiguration
+import katalon.common.navigateServiceRequestForm
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -31,29 +31,29 @@ WebUI.takeScreenshot(reportLocation + '/TC3/Step 2: Click on button welcomeSignI
 
 TrueTestScripts.login()
 
-"Step 4: Click on link contacts"
+"Step 4: Navigate through service request form"
+
+navigateServiceRequestForm.execute()
+
+"Step 5: Click on link contacts"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/admin/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/link_contacts'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 4: Click on link contacts.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 5: Click on link contacts.png')
 
-"Step 5: Fill contact form and send message"
-
-fillContactFormAndSendMessage.execute(data_path_0, Integer.valueOf(index_0))
-
-"Step 6: Click on span close -> Navigate to page ''"
+"Step 6: Click on button leave -> Navigate to page ''"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/admin/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/span_close'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/button_leave'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 6: Click on span close - Navigate to page .png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 6: Click on button leave - Navigate to page .png')
 
 "Step 7: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Contact Form Submission and Home Page Verification_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC3-Verify Leaving Contact Form Without Submission_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

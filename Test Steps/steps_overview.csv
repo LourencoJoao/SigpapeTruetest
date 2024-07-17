@@ -1,31 +1,21 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-2,Verify Contact Form Submission from Admin Page,"Navigate to authentication page, login as admin, access service request steps, fill contact form, send message, and verify successful submission on the home page.","Step 1: Navigate to auth/*
+1,Verify Successful Contact Form Submission,"Login as admin, navigate to contacts, fill in contact details, and submit the form. Verify successful submission and return to the homepage.","Step 1: Navigate to auth/*
 Step 2: Click on button welcomeSignIn
-Step 3: Login
-Step 4: Navigate through service request steps
-	- Step 1: Click on link serviceRequest
-	- Step 2: Click on input selectProgramId
-	- Step 3: Click on item object
-	- Step 4: Click on input selectSubserviceId
-	- Step 5: Click on item object
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-	- Step 8: Click on button next
-Step 5: Click on button ok -> Navigate to page 'admin/my-applications/*'
-Step 6: Click on link contacts
-Step 7: Fill contact form and send message
-	- Step 1: Enter input value in input email
-	- Step 2: Enter input value in input name
-	- Step 3: Enter input value in input phone
-	- Step 4: Enter input value in input surname
-	- Step 5: Enter input value in textarea message
-	- Step 6: Click on button send
-Step 8: Take full page screenshot as checkpoint
+Step 3: Login -> Navigate to page 'admin/*'
+Step 4: Click on link contacts
+Step 5: Enter input value in input email
+Step 6: Enter input value in input name
+Step 7: Enter input value in input phone
+Step 8: Enter input value in input surname
+Step 9: Enter input value in textarea message
+Step 10: Click on button send
+Step 11: Click on span close -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
 ",High
-1,Verify Service Request Steps and Home Page Navigation,"Navigate to authentication page, login as admin, navigate service request steps, click 'Ok' button, and verify successful navigation to the home page.","Step 1: Navigate to auth/*
+2,Verify Service Request Form Submission,"Login as admin, navigate through the service request form, and submit the request. Verify successful submission and return to the homepage.","Step 1: Navigate to auth/*
 Step 2: Click on button welcomeSignIn
 Step 3: Login
-Step 4: Navigate through service request steps
+Step 4: Navigate through service request form
 	- Step 1: Click on link serviceRequest
 	- Step 2: Click on input selectProgramId
 	- Step 3: Click on item object
@@ -36,25 +26,11 @@ Step 4: Navigate through service request steps
 	- Step 8: Click on button next
 Step 5: Click on button ok -> Navigate to page ''
 Step 6: Take full page screenshot as checkpoint
-",High
-3,Verify Contact Form Submission and Home Page Verification,"Navigate to authentication page, login as admin, click contacts link, fill contact form, send message, close the form, and verify successful submission on the home page.","Step 1: Navigate to auth/*
-Step 2: Click on button welcomeSignIn
-Step 3: Login -> Navigate to page 'admin/*'
-Step 4: Click on link contacts
-Step 5: Fill contact form and send message
-	- Step 1: Enter input value in input email
-	- Step 2: Enter input value in input name
-	- Step 3: Enter input value in input phone
-	- Step 4: Enter input value in input surname
-	- Step 5: Enter input value in textarea message
-	- Step 6: Click on button send
-Step 6: Click on span close -> Navigate to page ''
-Step 7: Take full page screenshot as checkpoint
 ",Medium
-4,Verify Service Request Steps and Service Request Page Navigation,"Navigate to authentication page, login as admin, navigate service request steps, click on an object, click service request link, and verify successful navigation to the home page.","Step 1: Navigate to auth/*
+3,Verify Leaving Contact Form Without Submission,"Login as admin, navigate through the service request form, then to contacts. Leave the form without submission and return to the homepage to verify.","Step 1: Navigate to auth/*
 Step 2: Click on button welcomeSignIn
 Step 3: Login
-Step 4: Navigate through service request steps
+Step 4: Navigate through service request form
 	- Step 1: Click on link serviceRequest
 	- Step 2: Click on input selectProgramId
 	- Step 3: Click on item object
@@ -63,89 +39,7 @@ Step 4: Navigate through service request steps
 	- Step 6: Click on button next
 	- Step 7: Click on button next
 	- Step 8: Click on button next
-Step 5: Click on item object
-Step 6: Click on link serviceRequest -> Navigate to page ''
+Step 5: Click on link contacts
+Step 6: Click on button leave -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",Low
-5,Verify Subscription and Contact Form Submission with Leaving Page,"Navigate to authentication page, login as admin, navigate service request steps, subscribe twice, click contacts link, leave the page, and verify successful submission on the home page.","Step 1: Navigate to auth/*
-Step 2: Click on button welcomeSignIn
-Step 3: Login
-Step 4: Navigate through service request steps
-	- Step 1: Click on link serviceRequest
-	- Step 2: Click on input selectProgramId
-	- Step 3: Click on item object
-	- Step 4: Click on input selectSubserviceId
-	- Step 5: Click on item object
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-	- Step 8: Click on button next
-Step 5: Click on button subscribe
-Step 6: Click on button subscribe
-Step 7: Click on link contacts
-Step 8: Click on button leave -> Navigate to page ''
-Step 9: Take full page screenshot as checkpoint
-",Trivial
-6,Verify Subscription Contact Form Submission and Home Page Verification,"Navigate to authentication page, login as admin, navigate service request steps, subscribe twice, click contacts link, leave the page, save request, fill contact form, send message, and verify successful submission on the home page.","Step 1: Navigate to auth/*
-Step 2: Click on button welcomeSignIn
-Step 3: Login
-Step 4: Navigate through service request steps
-	- Step 1: Click on link serviceRequest
-	- Step 2: Click on input selectProgramId
-	- Step 3: Click on item object
-	- Step 4: Click on input selectSubserviceId
-	- Step 5: Click on item object
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-	- Step 8: Click on button next
-Step 5: Click on button subscribe
-Step 6: Click on button subscribe
-Step 7: Click on link contacts
-Step 8: Click on button leave
-Step 9: Click on div yourRequestWasSaved
-Step 10: Click on link contacts
-Step 11: Fill contact form and send message
-	- Step 1: Enter input value in input email
-	- Step 2: Enter input value in input name
-	- Step 3: Enter input value in input phone
-	- Step 4: Enter input value in input surname
-	- Step 5: Enter input value in textarea message
-	- Step 6: Click on button send
-Step 12: Take full page screenshot as checkpoint
-",Trivial
-7,Verify User Authentication and Home Page Navigation,"Navigate to admin page, interact with elements, click contacts link, fill contact form, send message, access service request steps, navigate back to authentication page, login, access service request steps, click 'Ok' button, and verify successful navigation to the home page.","Step 1: Navigate to admin/*
-Step 2: Click on div muiBackdropRoot
-Step 3: Click on div muiBackdropRoot
-Step 4: Click on link contacts
-Step 5: Fill contact form and send message
-	- Step 1: Enter input value in input email
-	- Step 2: Enter input value in input name
-	- Step 3: Enter input value in input phone
-	- Step 4: Enter input value in input surname
-	- Step 5: Enter input value in textarea message
-	- Step 6: Click on button send
-Step 6: Navigate through service request steps
-	- Step 1: Click on link serviceRequest
-	- Step 2: Click on input selectProgramId
-	- Step 3: Click on item object
-	- Step 4: Click on input selectSubserviceId
-	- Step 5: Click on item object
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-	- Step 8: Click on button next
-Step 7: Click on button userDropdownButton
-Step 8: Click on span object -> Navigate to page 'auth/*'
-Step 9: Click on button login
-Step 10: Click on button welcomeSignIn
-Step 11: Login
-Step 12: Navigate through service request steps
-	- Step 1: Click on link serviceRequest
-	- Step 2: Click on input selectProgramId
-	- Step 3: Click on item object
-	- Step 4: Click on input selectSubserviceId
-	- Step 5: Click on item object
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-	- Step 8: Click on button next
-Step 13: Click on button ok -> Navigate to page ''
-Step 14: Take full page screenshot as checkpoint
-",Trivial
