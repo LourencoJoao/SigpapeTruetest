@@ -3,11 +3,11 @@ package katalon.common
 import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
-import internal.GlobalVariable
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable
 
-public class navigateServiceRequestFlow {
+public class navigateServiceRequestSteps {
     
     private static def execute_functional_method(Map data) {
         
@@ -21,7 +21,7 @@ public class navigateServiceRequestFlow {
         
         "Step 3: Click on item object"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/item_object', ['dynamicInternalRoleOptionNameVariable': GlobalVariable.item_object_dynamicInternalRoleOptionNameVariable, 'dynamicMuiIndex': GlobalVariable.item_object_dynamicMuiIndex, 'dynamicOptionIndex': GlobalVariable.item_object_dynamicOptionIndex]))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/item_object', ['dynamicMuiIndex': GlobalVariable.item_object_dynamicMuiIndex, 'dynamicOptionIndex': GlobalVariable.item_object_dynamicOptionIndex, 'dynamicInternalRoleOptionNameVariable': GlobalVariable.item_object_dynamicInternalRoleOptionNameVariable]))
         
         "Step 4: Click on input selectSubserviceId"
         
@@ -29,19 +29,19 @@ public class navigateServiceRequestFlow {
         
         "Step 5: Click on item object"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/item_object', ['dynamicInternalRoleOptionNameVariable': GlobalVariable.item_object_dynamicInternalRoleOptionNameVariable, 'dynamicMuiIndex': GlobalVariable.item_object_dynamicMuiIndex, 'dynamicOptionIndex': GlobalVariable.item_object_dynamicOptionIndex]))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/item_object', ['dynamicMuiIndex': GlobalVariable.item_object_dynamicMuiIndex, 'dynamicOptionIndex': GlobalVariable.item_object_dynamicOptionIndex, 'dynamicInternalRoleOptionNameVariable': GlobalVariable.item_object_dynamicInternalRoleOptionNameVariable]))
         
         "Step 6: Click on button next"
         
         WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/button_next'))
         
-        "Step 7: Click on button next2"
+        "Step 7: Click on button next"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/button_next2'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/button_next_1'))
         
-        "Step 8: Click on button next2"
+        "Step 8: Click on button next"
         
-        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/button_next2'))
+        WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/button_next_1'))
     }
     
     private static def execute_with_data_source(String datasource, int rowIndex) {

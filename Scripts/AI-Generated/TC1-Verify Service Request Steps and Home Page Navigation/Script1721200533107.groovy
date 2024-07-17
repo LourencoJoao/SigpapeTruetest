@@ -1,10 +1,9 @@
-import internal.GlobalVariable
-import katalon.common.fillContactDetailsAndSendMessage
-import katalon.common.navigateServiceRequestFlow
-import com.kms.katalon.core.configuration.RunConfiguration
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import katalon.common.navigateServiceRequestSteps
 import katalon.truetest.TrueTestScripts
+import internal.GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -32,25 +31,21 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 2: Click on button welcomeSignI
 
 TrueTestScripts.login()
 
-"Step 4: Navigate service request flow and proceed to the next steps"
+"Step 4: Navigate through service request steps"
 
-navigateServiceRequestFlow.execute()
+navigateServiceRequestSteps.execute()
 
-"Step 5: Click on button ok"
+"Step 5: Click on button ok -> Navigate to page ''"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/admin/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/button_ok'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 5: Click on button ok.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 5: Click on button ok - Navigate to page .png')
 
-"Step 6: Fill contact details and send a message"
+"Step 6: Take full page screenshot as checkpoint"
 
-fillContactDetailsAndSendMessage.execute(data_path_0, Integer.valueOf(index_0))
-
-"Step 7: Take full page screenshot as checkpoint"
-
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Service Request Flow Completion with Contact Details_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Service Request Steps and Home Page Navigation_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
