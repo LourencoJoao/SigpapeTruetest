@@ -23,42 +23,42 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 public class TrueTestScripts {
-    
-    public static void login() {
-        try {
-            WebUI.setText(findTestObject('Page_One Stop Shop Axians/input_Login'), '456123789')
-            WebUI.setEncryptedText(findTestObject('Page_One Stop Shop Axians/input_Password'), 'A7HVxcY/1A5ahCQidKtScQ==')
-            WebUI.click(findTestObject('Page_One Stop Shop Axians/button_Sign In'))
-        } catch(Exception e) {
-            if (e.getCause() instanceof WebElementNotFoundException) {
-                KeywordUtil.logInfo(e.getMessage())
-                KeywordUtil.markWarning(e.getMessage())
-            } else {
-                throw e
-            }
-        }
-    }
-    
-    public static void navigate(String path) {
-        String applicationDomain = GlobalVariable.application_domain;
-        String queryParameters = "";
-        try {
-            queryParameters = GlobalVariable.query_params;
-        }
-        catch (Exception e) {
-            KeywordUtil.logInfo(e.getMessage())
-        }
-        if (path == null) {
-            path = "";
-        }
-        if (!path.startsWith("/")) {
-            path = "/$path";
-        }
-        String url = "$applicationDomain$path";
-        if (queryParameters != null && queryParameters.length() > 0) {
-            url = "$url?$queryParameters";
-        }
-        WebUI.navigateToUrl(url);
-    }
+
+	public static void login() {
+		try {
+			WebUI.setText(findTestObject('Page_One Stop Shop Axians/input_Login'), '456123789')
+			WebUI.setEncryptedText(findTestObject('Page_One Stop Shop Axians/input_Password'), 'A7HVxcY/1A5ahCQidKtScQ==')
+			WebUI.click(findTestObject('Page_One Stop Shop Axians/button_Sign In'))
+		} catch(Exception e) {
+			if (e.getCause() instanceof WebElementNotFoundException) {
+				KeywordUtil.logInfo(e.getMessage())
+				KeywordUtil.markWarning(e.getMessage())
+			} else {
+				throw e
+			}
+		}
+	}
+
+	public static void navigate(String path) {
+		String applicationDomain = GlobalVariable.application_domain;
+		String queryParameters = "";
+		try {
+			queryParameters = GlobalVariable.query_params;
+		}
+		catch (Exception e) {
+			KeywordUtil.logInfo(e.getMessage())
+		}
+		if (path == null) {
+			path = "";
+		}
+		if (!path.startsWith("/")) {
+			path = "/$path";
+		}
+		String url = "$applicationDomain$path";
+		if (queryParameters != null && queryParameters.length() > 0) {
+			url = "$url?$queryParameters";
+		}
+		WebUI.navigateToUrl(url);
+	}
 }
 
