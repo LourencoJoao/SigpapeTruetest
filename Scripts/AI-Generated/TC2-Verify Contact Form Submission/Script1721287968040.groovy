@@ -1,8 +1,8 @@
-import internal.GlobalVariable
-import katalon.truetest.TrueTestScripts
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import katalon.truetest.TrueTestScripts
+import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -24,7 +24,7 @@ TrueTestScripts.navigate("auth/${GlobalVariable.auth_id}")
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_auth/button_welcomeSignIn'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 2: Click on button welcomeSignIn.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 2: Click on button welcomeSignIn.png')
 
 "Step 3: Login into Application"
 
@@ -36,7 +36,7 @@ TrueTestScripts.login()
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/link_contacts'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 4: Click on link contacts.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 4: Click on link contacts.png')
 
 "Step 5: Enter input value in input email"
 
@@ -44,7 +44,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 4: Click on link contacts.png')
 
 WebUI.setText(findTestObject('AI-Generated/Page_admin/input_email'), var_1_input_email)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 5: Enter input value in input email.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 5: Enter input value in input email.png')
 
 "Step 6: Enter input value in input name"
 
@@ -52,7 +52,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 5: Enter input value in input e
 
 WebUI.setText(findTestObject('AI-Generated/Page_admin/input_name'), var_2_input_name)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 6: Enter input value in input name.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 6: Enter input value in input name.png')
 
 "Step 7: Enter input value in input phone"
 
@@ -60,7 +60,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 6: Enter input value in input n
 
 WebUI.setText(findTestObject('AI-Generated/Page_admin/input_phone'), var_3_input_phone)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 7: Enter input value in input phone.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 7: Enter input value in input phone.png')
 
 "Step 8: Enter input value in input surname"
 
@@ -68,7 +68,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 7: Enter input value in input p
 
 WebUI.setText(findTestObject('AI-Generated/Page_admin/input_surname'), var_4_input_surname)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 8: Enter input value in input surname.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 8: Enter input value in input surname.png')
 
 "Step 9: Enter input value in textarea message"
 
@@ -76,7 +76,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 8: Enter input value in input s
 
 WebUI.setText(findTestObject('AI-Generated/Page_admin/textarea_message'), var_5_textarea_message)
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 9: Enter input value in textarea message.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 9: Enter input value in textarea message.png')
 
 "Step 10: Click on button send"
 
@@ -84,7 +84,7 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 9: Enter input value in textare
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/button_send'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 10: Click on button send.png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 10: Click on button send.png')
 
 "Step 11: Click on span close -> Navigate to page ''"
 
@@ -92,11 +92,11 @@ WebUI.takeScreenshot(reportLocation + '/TC1/Step 10: Click on button send.png')
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/span_close'))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 11: Click on span close - Navigate to page .png')
+WebUI.takeScreenshot(reportLocation + '/TC2/Step 11: Click on span close - Navigate to page .png')
 
 "Step 12: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Contact Form Submission_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Contact Form Submission_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

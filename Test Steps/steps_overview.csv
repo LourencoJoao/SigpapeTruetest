@@ -1,5 +1,20 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Successful Contact Form Submission,"Login as admin, navigate to contacts, fill in contact details, and submit the form. Verify successful submission and return to the homepage.","Step 1: Navigate to auth/*
+1,Verify Successful Sign in and Service Request Submission,"Sign in as an admin, navigate to service requests, fill out the service form, and verify successful submission.","Step 1: Navigate to auth/*
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/*'
+Step 4: Click on link serviceRequest
+Step 5: Select service and sub-service options in a form
+	- Step 1: Click on input selectAserviceProgramId
+	- Step 2: Click on item option1
+	- Step 3: Click on input selectAsubserviceSubProgramId
+	- Step 4: Click on item option1
+	- Step 5: Click on button formNext
+	- Step 6: Click on button formNext2
+	- Step 7: Click on button formNext2
+Step 6: Click on button ok -> Navigate to page ''
+Step 7: Take full page screenshot as checkpoint
+",High
+2,Verify Contact Form Submission,"Sign in as an admin, navigate to contacts, fill out the contact form, and verify successful submission.","Step 1: Navigate to auth/*
 Step 2: Click on button welcomeSignIn
 Step 3: Login -> Navigate to page 'admin/*'
 Step 4: Click on link contacts
@@ -12,34 +27,60 @@ Step 10: Click on button send
 Step 11: Click on span close -> Navigate to page ''
 Step 12: Take full page screenshot as checkpoint
 ",High
-2,Verify Service Request Form Submission,"Login as admin, navigate through the service request form, and submit the request. Verify successful submission and return to the homepage.","Step 1: Navigate to auth/*
+3,Verify Service and Sub service Form Progression,"Sign in as an admin, navigate to service requests, select service and sub-service options, progress through form steps, and verify completion.","Step 1: Navigate to auth/*
 Step 2: Click on button welcomeSignIn
-Step 3: Login
-Step 4: Navigate through service request form
-	- Step 1: Click on link serviceRequest
-	- Step 2: Click on input selectProgramId
-	- Step 3: Click on item object
-	- Step 4: Click on input selectSubserviceId
-	- Step 5: Click on item object
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-	- Step 8: Click on button next
-Step 5: Click on button ok -> Navigate to page ''
-Step 6: Take full page screenshot as checkpoint
+Step 3: Login -> Navigate to page 'admin/*'
+Step 4: Click on link serviceRequest
+Step 5: Click on input selectAserviceProgramId
+Step 6: Click on item option1
+Step 7: Click on input selectAsubserviceSubProgramId
+Step 8: Click on item option1
+Step 9: Click on button formNext
+Step 10: Click on button formNext2
+Step 11: Click on button formNext2 -> Navigate to page ''
+Step 12: Take full page screenshot as checkpoint
 ",Medium
-3,Verify Leaving Contact Form Without Submission,"Login as admin, navigate through the service request form, then to contacts. Leave the form without submission and return to the homepage to verify.","Step 1: Navigate to auth/*
+4,Verify Leaving Service Request Form,"Sign in as an admin, navigate to service requests, start filling the form, then navigate to contacts. Verify leaving the form redirects to the home page.","Step 1: Navigate to auth/*
 Step 2: Click on button welcomeSignIn
-Step 3: Login
-Step 4: Navigate through service request form
-	- Step 1: Click on link serviceRequest
-	- Step 2: Click on input selectProgramId
-	- Step 3: Click on item object
-	- Step 4: Click on input selectSubserviceId
-	- Step 5: Click on item object
-	- Step 6: Click on button next
-	- Step 7: Click on button next
-	- Step 8: Click on button next
-Step 5: Click on link contacts
-Step 6: Click on button leave -> Navigate to page ''
-Step 7: Take full page screenshot as checkpoint
+Step 3: Login -> Navigate to page 'admin/*'
+Step 4: Click on link serviceRequest
+Step 5: Select service and sub-service options in a form
+	- Step 1: Click on input selectAserviceProgramId
+	- Step 2: Click on item option1
+	- Step 3: Click on input selectAsubserviceSubProgramId
+	- Step 4: Click on item option1
+	- Step 5: Click on button formNext
+	- Step 6: Click on button formNext2
+	- Step 7: Click on button formNext2
+Step 6: Click on link contacts
+Step 7: Click on button leave -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
 ",Low
+5,Verify Service Option Selection and Submission,"Sign in as an admin, navigate to service requests, select service options, fill out the form, and verify successful submission.","Step 1: Navigate to auth/*
+Step 2: Click on button welcomeSignIn
+Step 3: Login -> Navigate to page 'admin/*'
+Step 4: Click on link serviceRequest
+Step 5: Click on item option1
+Step 6: Select service and sub-service options in a form
+	- Step 1: Click on input selectAserviceProgramId
+	- Step 2: Click on item option1
+	- Step 3: Click on input selectAsubserviceSubProgramId
+	- Step 4: Click on item option1
+	- Step 5: Click on button formNext
+	- Step 6: Click on button formNext2
+	- Step 7: Click on button formNext2
+Step 7: Click on button ok -> Navigate to page ''
+Step 8: Take full page screenshot as checkpoint
+",Low
+6,Verify Contact Form Submission from Home Page,"Login, navigate to contacts, fill out the contact form, and verify successful submission from the home page.","Step 1: Login
+Step 2: Navigate to auth/*
+Step 3: Click on link contacts
+Step 4: Enter input value in input email
+Step 5: Enter input value in input name
+Step 6: Enter input value in input phone
+Step 7: Enter input value in input surname
+Step 8: Enter input value in textarea message
+Step 9: Click on button formSend
+Step 10: Click on span close -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Trivial

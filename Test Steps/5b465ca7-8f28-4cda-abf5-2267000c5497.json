@@ -1,0 +1,16 @@
+{
+    "steps": [
+        "step 1: Navigate to auth/*",
+        "step 2: Click on button welcomeSignIn",
+        "step 3: Login -> Navigate to page 'admin/*'",
+        "step 4: Click on link contacts",
+        "step 5: Enter input value in input email",
+        "step 6: Enter input value in input name",
+        "step 7: Enter input value in input phone",
+        "step 8: Enter input value in input surname",
+        "step 9: Enter input value in textarea message",
+        "step 10: Click on button send",
+        "step 11: Click on span close -> Navigate to page ''",
+        "step 12: Take full page screenshot as checkpoint"
+    ]
+}

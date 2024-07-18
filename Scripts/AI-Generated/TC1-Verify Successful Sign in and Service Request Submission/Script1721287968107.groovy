@@ -1,9 +1,9 @@
-import internal.GlobalVariable
-import katalon.truetest.TrueTestScripts
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.configuration.RunConfiguration
-import katalon.common.navigateServiceRequestForm
+import katalon.common.selectServiceAndSubServiceOptionsInForm
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import katalon.truetest.TrueTestScripts
+import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
 
@@ -25,27 +25,35 @@ TrueTestScripts.navigate("auth/${GlobalVariable.auth_id}")
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_auth/button_welcomeSignIn'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 2: Click on button welcomeSignIn.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 2: Click on button welcomeSignIn.png')
 
 "Step 3: Login into Application"
 
 TrueTestScripts.login()
 
-"Step 4: Navigate through service request form"
+"Step 4: Click on link serviceRequest"
 
-navigateServiceRequestForm.execute()
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/admin/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-"Step 5: Click on button ok -> Navigate to page ''"
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/link_serviceRequest'))
+
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 4: Click on link serviceRequest.png')
+
+"Step 5: Select service and sub-service options in a form"
+
+selectServiceAndSubServiceOptionsInForm.execute()
+
+"Step 6: Click on button ok -> Navigate to page ''"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/admin/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
 WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/button_ok'))
 
-WebUI.takeScreenshot(reportLocation + '/TC2/Step 5: Click on button ok - Navigate to page .png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 6: Click on button ok - Navigate to page .png')
 
-"Step 6: Take full page screenshot as checkpoint"
+"Step 7: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Service Request Form Submission_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Sign in and Service Request Submission_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
