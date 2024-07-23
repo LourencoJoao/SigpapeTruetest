@@ -1,8 +1,8 @@
 import com.kms.katalon.core.configuration.RunConfiguration
-import katalon.common.selectServiceAndSubServiceOptionsInForm
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import katalon.truetest.TrueTestScripts
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import katalon.common.selectServiceAndSubServiceProgram
 import internal.GlobalVariable
 
 def reportLocation = RunConfiguration.getReportFolder()
@@ -15,15 +15,15 @@ def setup() {
 	WebUI.setViewPortSize(1920, 1080)	
 }
 
-"Step 1: Navigate to auth/*"
+"Step 1: Navigate to auth/home"
 
-TrueTestScripts.navigate("auth/${GlobalVariable.auth_id}")
+TrueTestScripts.navigate("auth/home")
 
 "Step 2: Click on button welcomeSignIn"
 
-// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/auth/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/auth/home?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_auth/button_welcomeSignIn'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_auth_home/button_welcomeSignIn'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 2: Click on button welcomeSignIn.png')
 
@@ -33,27 +33,27 @@ TrueTestScripts.login()
 
 "Step 4: Click on link serviceRequest"
 
-// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/admin/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/admin/home?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/link_serviceRequest'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_home/link_serviceRequest'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 4: Click on link serviceRequest.png')
 
-"Step 5: Select service and sub-service options in a form"
+"Step 5: Select service program, sub-service, and proceed to next steps"
 
-selectServiceAndSubServiceOptionsInForm.execute()
+selectServiceAndSubServiceProgram.execute()
 
 "Step 6: Click on button ok -> Navigate to page ''"
 
-// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/admin/.*?/?(?:#.*)?(?:\\?.*)?$', true)
+// WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/admin/application-create?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin/button_ok'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_admin_application_create/button_ok'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 6: Click on button ok - Navigate to page .png')
 
 "Step 7: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Sign in and Service Request Submission_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Service Request Creation Flow_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
